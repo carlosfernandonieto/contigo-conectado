@@ -1,0 +1,115 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+
+// Colores
+
+$primary: #00377B;
+$azul_oscuro: #000537;
+$azul_claro: #44C8F5;
+$blanco: #ffffff;
+$negro: #000;
+$amarillo: #e4b200;
+
+// Clases colores
+
+.c-blanco{
+    color: $blanco;
+    &:hover{
+        color: $blanco;
+    }
+}
+
+.c-primary{
+    color: $primary;
+}
+.c-azul_claro{
+    color: $azul_claro;
+}
+
+.c-negro{
+    color: $negro;
+}
+
+// Background
+.bg-azul_oscuro{
+    background: $azul_oscuro;
+}
+
+.bg-azul_claro{
+    background: $azul_claro;
+}
+
+.bg-amarillo{
+    background: $amarillo;
+}
+
+// Background RGBA
+
+.bg-blanco-o{
+    background: rgba(255,255,255, .9);
+}
+
+.bg-azul-o{
+    background: rgba(0,57,121, .9);
+}
+
+.bg-morado-o{
+    background: rgba(97,0,121, .9);
+}
+
+.bg-amarillo-o{
+    background: rgba(228,178,0, .9);
+}
+
+
+// Fuentes
+
+$cronos_pro: 'CronosPro-SemiboldCapt';
+$cronos_disp: 'CronosPro-Disp';
+$cronos_bold: 'CronosPro-BoldCapt';
+$cronos_light: 'CronosPro-Lt';
+$roboto: 'Roboto', sans-serif;
+
+
+// Weights
+
+$f_light:300;
+$f_light_i:400i;
+$f_regular: 400;
+$f_bold: 700;
+
+
+
+// Fontface
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap'); 
+@font-face {
+    font-family: 'CronosPro-SemiboldCapt';
+    src: url('../fonts/tigo/CronosPro-SemiboldCapt.eot?#iefix') format('embedded-opentype'),  url('../fonts/tigo/CronosPro-SemiboldCapt.otf')  format('opentype'),
+           url('../fonts/tigo/CronosPro-SemiboldCapt.woff') format('woff'), url('../fonts/tigo/CronosPro-SemiboldCapt.ttf')  format('truetype'), url('../fonts/tigo/CronosPro-SemiboldCapt.svg#CronosPro-SemiboldCapt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CronosPro-BoldCapt';
+    src: url('../fonts/tigo/CronosPro-BoldCapt.eot?#iefix') format('embedded-opentype'),  url('../fonts/tigo/CronosPro-BoldCapt.otf')  format('opentype'),
+           url('../fonts/tigo/CronosPro-BoldCapt.woff') format('woff'), url('../fonts/tigo/CronosPro-BoldCapt.ttf')  format('truetype'), url('../fonts/tigo/CronosPro-BoldCapt.svg#CronosPro-BoldCapt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CronosPro-Disp';
+    src: url('../fonts/tigo/CronosPro-Disp.eot?#iefix') format('embedded-opentype'),  url('../fonts/tigo/CronosPro-Disp.otf')  format('opentype'),
+           url('../fonts/tigo/CronosPro-Disp.woff') format('woff'), url('../fonts/tigo/CronosPro-Disp.ttf')  format('truetype'), url('../fonts/CronosPro-Disp.svg#CronosPro-Disp') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { font-family: 'CronosPro-Lt'; src: url('../fonts/tigo/CronosPro-Lt.eot?#iefix') format('embedded-opentype'), url('../fonts/tigo/CronosPro-Lt.otf') format('opentype'), url('../fonts/tigo/CronosPro-Lt.woff') format('woff'), url('../fonts/tigo/CronosPro-Lt.ttf') format('truetype'), url('../fonts/tigo/CronosPro-Lt.svg#CronosPro-Lt') format('svg'); font-weight: normal; font-style: normal; }
+  
+
+
+  
+  

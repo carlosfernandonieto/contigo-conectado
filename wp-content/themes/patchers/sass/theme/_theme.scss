@@ -1,0 +1,430 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+.entry-header{
+    font-family: $cronos_pro;
+}
+// Keyframes
+
+@-webkit-keyframes glitch {
+    0% { transform: translateX(0); }
+    25% {transform: translateX(-10px);}
+    50% {transform: translateX(-20px);}
+    60% {transform: translateX(0);}
+    75% {transform: translateX(-10px);}
+    90% {transform: translateX(-5px);}
+    100% { transform: translateX(0); }
+}
+@keyframes glitch {
+    0% { transform: translateX(0); }
+    25% {transform: translateX(-10px);}
+    50% {transform: translateX(-20px);}
+    60% {transform: translateX(0);}
+    75% {transform: translateX(-10px);}
+    90% {transform: translateX(-5px);}
+    100% { transform: translateX(0); }
+}
+
+
+@keyframes reveal-up {
+    0% {
+      bottom: -15px;
+    }
+    50% {
+      bottom: -5px;
+    }
+    100% {
+      bottom: 0;
+    }
+  }
+
+// Header
+.collapsing {
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+.btn-h-a{
+    background:url(../images/btn-h-a.png) no-repeat;
+    width: 128px;
+    height: 39px;
+    display: block;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+.btn-h-b{
+    background:url(../images/btn-h-b.png) no-repeat;
+    width: 128px;
+    height: 39px;
+    display: block;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+
+#slider-home{
+    .n2-ss-control-bullet{
+        transform: rotate(90deg);
+        bottom: 10%!important;
+    }
+}
+
+#main-home{
+    
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+
+    .s-home{
+        background-size: cover!important;
+        height: 400px;
+
+        .c-text-cat{
+            right: 0;
+            left: 0;
+            bottom: 0;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            -moz-transition: opacity 1s ease-in-out;
+            -webkit-transition: opacity 1s ease-in-out;
+    
+            h2{
+               font-family: $cronos_pro; 
+               font-size: 20px;
+               text-transform: uppercase;
+               letter-spacing: 1px;
+               margin-bottom: 18px;
+               transition: 1s ease-in-out;   
+               position: relative;
+            }
+    
+            p{
+                font-family: $roboto;
+                font-weight: $f_light;
+                font-size: 14px;
+                transition: 1s ease-in-out;
+                position: relative;
+            }
+            .btn-cat{
+                position: relative;
+            }
+
+            @include media-breakpoint-down(lg){
+                opacity: 1;
+                width: 100%!important;
+            }
+        }
+
+        &:hover{
+            .c-text-cat{
+                opacity: 1;
+                h2{
+                    animation: 0.5s reveal-up linear;
+                }
+                p{
+                    animation: 0.5s reveal-up linear;
+                }
+                .btn-cat{
+                    animation: 0.5s reveal-up linear;
+                }
+            }
+        }
+    }
+    
+}
+
+// Categoria
+
+article{
+    .img-articulo{
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .info-articulo{
+        border: 1px solid #ddd;
+
+    }
+}
+
+// Interna Articulo - Categoría
+
+#single-wrapper{
+    article{
+        a{
+            word-wrap: break-word;
+            white-space: normal;
+        }
+        #c-img-article{
+            img{
+                width: 100%;
+            }
+        }
+
+        #share-media{
+            ul{
+                li{
+                    list-style: none;
+                }
+            }
+        }
+    }
+}
+
+// Patchers
+
+#patchers{
+    .modal-dialog {
+        max-width: 800px;
+        margin: 30px auto;
+        top: 30%;
+    }
+    .modal-body {
+        position:relative;
+        padding:0px;
+        
+    }
+    .close {
+        position:absolute;
+        right:-30px;
+        top:0;
+        z-index:999;
+        font-size:2rem;
+        font-weight: normal;
+        color: $blanco;
+        opacity:1;
+    }
+}
+
+// Quienes Somos
+
+// Categoría Resultados
+
+/*Textos 
+-------------------------------------------------------------------------------------------------------------------------------------------
+*/
+.ache1 {
+	color: #fff !important;
+	font-size: 3rem !important;
+	font-weight: 500;
+	text-shadow: 0 1px 1px #292B34;
+    line-height: 100%;
+    
+    span{
+        font-size: 2rem !important;
+    }
+}
+
+.ache2 {
+	color: #292B34!important;
+	font-size: 1.5rem !important;
+}
+.ache3 {
+	color: $azul_claro!important;
+	font-size: 2rem !important;
+	font-weight: bolder !important;
+	margin: 0 auto 16px;
+	display: table;
+}
+
+.filtro {
+	margin-bottom: 1rem;
+	width: auto;
+}
+.foto-pregunta {
+	text-align: center;
+    width: 100%;
+    img {
+        width: 80%;
+    }
+}
+.gris {
+	color: #828282 !important;
+    font-size: 1rem;
+    p {
+        color: #828282 !important;
+        font-size: 1rem;
+    }
+}
+
+.pregunta {
+	font-size: .88rem!important;
+	font-weight: 400;
+	color:#00377B!important;
+    text-align: center;
+    span {
+    color: $azul_claro!important;
+    }
+}
+
+.titulo {
+	position: relative;
+    width: 100%;
+    p {
+        color: #fff !important;
+        font-size: 1rem !important;
+        text-shadow: 0 1px 1px #292B34;
+    }
+}
+
+.contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.desktop {
+	display: block;
+}
+.medio {
+	margin: 0 auto 1rem;
+	width: 47.5%;
+}
+.mobile {
+	display: none;
+}
+.tercio {
+	margin: 0 auto 1rem;
+	width: 30%;	
+}
+.full {
+	width: 100%;
+}
+@media only screen and (max-width: 750px) {
+	.desktop {
+		display: none !important;
+	}
+	.medio {
+		width: 100%;
+	}
+	.mobile {
+		display: inherit;
+	}
+}
+
+// Popup Form
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: $amarillo;
+    color: white;
+    padding: 18px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    &:focus{
+        outline: none;
+    }
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 9;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+
+
+    p{
+        font-weight: $f_light;
+        font-size: 1em;
+        text-align: center;
+        font-family: $roboto;
+    }
+    i{
+        font-size: 30px;
+    }
+    #terms{
+        font-family: $cronos_disp;
+        letter-spacing: 1px;
+        font-size: 14px;
+        a{
+            color: $blanco;
+            text-decoration: underline;
+        }
+    }
+    input[type="text"],
+    input[type="email"]{
+        border-radius: 5px;
+        
+        border:2px solid $blanco;
+        padding: 10px 10px 10px 40px;
+        font-family: $cronos_disp;
+        color: $blanco;
+        letter-spacing: 1px;
+        &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: $blanco;
+            opacity: 1; /* Firefox */
+        }
+          
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: $blanco;
+        }
+          
+        &::-ms-input-placeholder { /* Microsoft Edge */
+            color: $blanco;
+        }
+    }
+    input[type="submit"]{
+        border: 0;
+        border-radius: 10px;
+        padding: 17px 0;
+        font-family: $cronos_pro;
+        text-transform: uppercase;
+        color: $blanco;
+        letter-spacing: 1px;
+    }
+
+    .sib-NAME-area{
+        background:url(../images/bg-nombre-f.png) no-repeat;
+        background-position-x: 10px;
+        background-position-y: 10px;
+    }
+
+    .sib-email-area{
+        background:url(../images/bg-email-f.png) no-repeat;
+        background-position-x: 10px;
+        background-position-y: 10px;
+    }
+  }
+  
+/* Add styles to the form container */
+.sib_signup_form {
+    max-width: 370px;
+    padding: 10px 50px 80px;
+}  
+
+  
+/* Add some hover effects to buttons */
+.sib_signup_form .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+// Footer
+
+#wrapper-footer{
+    background: url(../images/bg_footer.png) no-repeat;
+    background-size: cover;
+
+    #copyright{
+        font-family: $cronos_light;
+    }
+
+    #conocenos{
+        font-family: $roboto;
+        font-weight: $f_bold;
+    }
+}

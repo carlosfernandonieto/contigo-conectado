@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ padding: 0; margin: 0; font-size: 15px; background: #f0f0f0; font-family: Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; }
+.cont_header{ background: #003480; width: 100%; float:left;}
+.cont_elemt_header{ width: 100%; max-width: 1000px; margin: 0 auto; position: relative;}
+.logo_contigo_conectados{ padding: 1em 0 0.5em 1%; width: 100%; max-width: 427px; float: left;}
+.cont_sus{ float: right;}
+.boton_conf{ padding: 8% 1%; background: #00b8ff; border-radius: 20px; width: 120%; text-align: center; color: #fff; margin: 1.3em 1em;}
+.cont_gene{ width: 100%; float: left;}
+.cont_gene_centro{ background: #fff; margin: 0 auto; width: 100%; max-width: 1000px; position: relative; margin-top: 2em; border-radius: 0 10px 10px 10px;}
+.cont_intro{ width: 60%; padding: 3em 2%;; margin-left: 30%;}
+.esq_degrada{ background: #000; width: 15%; padding-top: 15%; z-index: -1; position: absolute; margin: -8px 0 0 -8px; background: linear-gradient(to bottom, rgba(0,170,222,1) 0%, rgba(0,57,255,1) 100%);}
+.img_gene{ position:absolute; width: 34.7%; margin-left: -5%}
+.cont_intro p{ color: #b2b2b2; font-size: 1em; line-height: 140%;}
+.ico_fecha{ padding: 0 1em 0 0;}
+.ico_direc{ padding: 0 0.5em 0 2em;}
+.selec_ciudad{ padding-top: 3em; padding-bottom: 1em; font-weight: bold; }
+.selec_ciudad select{ padding: 0.5em 0.8em; border-radius: 1em; margin-left: 1em; box-shadow: 0 0 10px #9c9c9c; border: 0;}
+.cont_flecha{ position: absolute; bottom: -13%;}
+.cont_conferencistas{ margin-left: 5%;}
+.cont_gene_centro2{ background: transparent; margin-top: 6em;}
+.ca_confe{float: left; width: 21%;}
+.confe_1, .confe_2, .confe_3{ margin-right: 3%;}
+.titulo_confe{ text-align: center; font-size: 2.5em; font-weight: bold; color: #00C7FF;}
+.foto_conf{background: url(../images/contigo-conectados-5.jpg); width: 60%; padding-top: 60%; position: relative; margin-left: 20%; overflow: hidden; border-radius: 4em;}
+.cont_conf{ background: #fff; border-radius: 1em; padding: 1em 1.5em; margin-top: 1em;}
