@@ -82,7 +82,7 @@
 
     .s-home{
         background-size: cover!important;
-        height: 400px;
+        height: calc(70vh - 100px);
 
         .c-text-cat{
             right: 0;
@@ -95,7 +95,7 @@
     
             h2{
                font-family: $cronos_pro; 
-               font-size: 20px;
+               font-size: 1.250em;
                text-transform: uppercase;
                letter-spacing: 1px;
                margin-bottom: 18px;
@@ -106,7 +106,7 @@
             p{
                 font-family: $roboto;
                 font-weight: $f_light;
-                font-size: 14px;
+                font-size: 0.875em;
                 transition: 1s ease-in-out;
                 position: relative;
             }

@@ -28,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             ?>
         </div>
     </div>
-	<div class="<?php echo esc_attr( $container ); ?> px-0" id="content">
+	<div class="<?php echo esc_attr( $container ); ?>-fluid px-0" id="content">
 		<div class="col-md-12 content-area" id="primary">
 				<main class="site-main" id="main-home" role="main">
 
@@ -51,7 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     ?> 
                                     <div class="col-12 col-lg-8 bg-primary s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term);?>)">
                                     <a href="<?php echo esc_url( $category_link ); ?>" class="d-block h-100 pt-4">
-                                        <div class="c-text-cat w-50 text-center position-absolute mx-auto bg-blanco-o pt-3 pb-4">
+                                        <div class="c-text-cat text-center position-absolute mx-auto bg-blanco-o pt-3 pb-4">
                                             <h2><?php print_r($category->name); ?></h2>
                                             <p><?php print_r($category->description); ?></p>
                                             <a href="<?php echo esc_url( $category_link ); ?>" class="btn-h-b btn-cat">Ver más</a>
