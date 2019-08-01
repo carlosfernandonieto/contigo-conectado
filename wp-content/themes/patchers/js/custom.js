@@ -28,5 +28,11 @@ jQuery(document).ready(function($) {
         $("#myForm").removeClass('d-block').css('opacity','0','transition','opacity 0.5s ease-in-out');
     });
 
+    
+
+    setTimeout( function(){ 
+        AOS.init();
+    }  , 2000 );
+
 });
 
