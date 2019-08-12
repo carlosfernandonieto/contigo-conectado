@@ -135,7 +135,7 @@ if ( ! function_exists( 'understrap_mobile_web_app_meta' ) ) {
 add_action( 'wp_head', 'understrap_mobile_web_app_meta' );
 
 function the_breadcrumb() {
-    $sep = ' > ';
+    $sep = ' - ';
     if (!is_front_page()) {
 	
 	// Start the breadcrumb with a link to your homepage

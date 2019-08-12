@@ -8,40 +8,49 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 ?>
+<article <?php post_class('d-lg-flex'); ?> id="post-<?php the_ID(); ?>">
+	<div class="col-12 col-lg-4 img-articulo pr-lg-0 px-0 rellax">
+		
+		<?php 
+		$image = get_field('imagen_categoria', $post->ID);
 
-<article <?php post_class('d-lg-flex mb-4'); ?> id="post-<?php the_ID(); ?>">
-	<div class="col-12 col-lg-4 img-articulo pr-lg-0 px-0">
-		<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+		if( !empty($image) ): ?>
+
+			<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid" />
+
+		<?php endif; ?>
 	</div>
 	<div class="col-12 col-lg-8 info-articulo">
-		<header class="entry-header">
+		<div class="c-article">
+			<header class="entry-header w-50">
 
-			<?php
-			the_title(
-				sprintf( '<h2 class="entry-title mt-2"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
-				'</a></h2>'
-			);
-			?>
+				<?php
+				the_title(
+					sprintf( '<h2 class="entry-title mt-2"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
+					'</a></h2>'
+				);
+				?>
 
-			<?php if ( 'post' == get_post_type() ) : ?>
+				<?php if ( 'post' == get_post_type() ) : ?>
 
-			<?php endif; ?>
+				<?php endif; ?>
 
-		</header><!-- .entry-header -->
+			</header><!-- .entry-header -->
 
-		<div class="entry-content">
+			<div class="entry-content w-50">
 
-			<?php the_excerpt(); ?>
+				<?php the_excerpt(); ?>
 
-			<?php
-			wp_link_pages(
-				array(
-					'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
-					'after'  => '</div>',
-				)
-			);
-			?>
-		</div><!-- .entry-content -->
+				<?php
+				wp_link_pages(
+					array(
+						'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
+						'after'  => '</div>',
+					)
+				);
+				?>
+			</div><!-- .entry-content -->
+		</div>
 	</div>
 
 </article><!-- #post-## -->

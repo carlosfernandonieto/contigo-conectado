@@ -28,11 +28,37 @@ jQuery(document).ready(function($) {
         $("#myForm").removeClass('d-block').css('opacity','0','transition','opacity 0.5s ease-in-out');
     });
 
-    
-
     setTimeout( function(){ 
         AOS.init();
     }  , 2000 );
 
+    
+});
+
+// Parallax
+
+jQuery(window).scroll(function(){
+
+    // Add parallax scrolling to all images in .paralax-image container
+    jQuery('.img-articulo').each(function(){
+      // only put top value if the window scroll has gone beyond the top of the image
+      if (jQuery(this).offset().top < jQuery(window).scrollTop()) {
+        // Get ammount of pixels the image is above the top of the window
+        var difference = jQuery(window).scrollTop() - jQuery(this).offset().top;
+        // Top value of image is set to half the amount scrolled
+        // (this gives the illusion of the image scrolling slower than the rest of the page)
+        var half = (difference / 2) + 'px';
+  
+        jQuery(this).find('img').css('top', half);
+      } else {
+        // if image is below the top of the window set top to 0
+        var difference = jQuery(window).scrollTop() - jQuery(this).offset().top;
+
+       
+        var half = (difference / 2) + 'px';
+  
+        jQuery(this).find('img').css('top', half);
+      }
+    });
 });
 

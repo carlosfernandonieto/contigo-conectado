@@ -14,6 +14,7 @@ defined( 'ABSPATH' ) || exit;
 		<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>	
 	</div>
 	<div class="container px-0 my-4">
+
 		<?php the_breadcrumb(); ?>
 	</div>
 	<div class="container">

@@ -15,12 +15,12 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div class="wrapper pt-0" id="archive-wrapper">
+<div class="wrapper py-0" id="archive-wrapper">
 	<?php 
 	$category = get_queried_object();
 	echo get_field('hero_content', 'category_'.$category->term_id);
 	?>
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+	<div class="<?php echo esc_attr( $container ); ?>-fluid px-0" id="content" tabindex="-1">
 
 			<!-- Do the left sidebar check -->
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
@@ -38,7 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						//the_archive_description( '<div class="taxonomy-description">', '</div>' );
 						?>
 					</header><!-- .page-header -->
-					<section id="container-articles" class="my-4">
+					<section id="container-articles">
 					<?php /* Start the Loop */ ?>
 					<?php while ( have_posts() ) : the_post(); ?>
 
