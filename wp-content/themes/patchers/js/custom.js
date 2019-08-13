@@ -32,6 +32,22 @@ jQuery(document).ready(function($) {
         AOS.init();
     }  , 2000 );
 
+    // Share Buttons
+    $('a.social-share').on('click',function(event){
+        event.preventDefault();
+        
+        $(this).parent().parent().find('a').not('.social-share').each(function(index){    
+          if(!$(this).hasClass('show')){
+            $(this).addClass('show');
+            TweenMax.to($(this), 0.4, {y:((index+1)*50), autoAlpha:1});
+          }else{      
+            TweenMax.staggerTo($(this), 0.2, {y:0, autoAlpha:0}, 0.1, function(){
+              $('.share-buttons a').removeClass('show');
+            });      
+          }
+        });
+    });
+
     
 });
 

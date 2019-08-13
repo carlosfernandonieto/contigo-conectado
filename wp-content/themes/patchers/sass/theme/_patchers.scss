@@ -1,0 +1,165 @@
+// Patchers
+.page-template-patchers{
+    .invisible{
+        height: 1px;
+    }
+    #patchers{
+        .modal-dialog {
+            max-width: 1200px;
+            margin: 30px auto;
+            top: calc(50% - 375px);
+        }
+        .modal-body {
+            position:relative;
+            padding:0px;
+            
+        }
+        .close {
+            position:absolute;
+            right:0;
+            top:-40px;
+            z-index:999;
+            font-size:2rem;
+            font-weight: normal;
+            color: $blanco;
+            opacity:1;
+        }
+
+        .video{
+            cursor: pointer;
+            .c-poster-video{
+                .c-duracion{
+                    bottom: 0;
+                    right: 0;
+                    background: #6ccaec;
+                    padding: 10px 14px;
+                    color: $blanco;
+                    font-size: 20px;
+                    font-family: $cronos_pro;
+                }
+            }
+            .c-info-video{
+                background: $azul_videos;
+                padding: 20px 40px;
+                color: $blanco;
+                h2{
+                    font-family: $cronos_pro;
+                    font-size: 1.5em;
+                    text-transform: uppercase;
+                }
+                p{
+                    font-family: $roboto;
+                    font-weight: $f_light;
+                    font-size: 1em;
+                }
+            }
+        }
+
+        #featured-slider{
+            h3{
+                color: $azul_quemado;
+                font-family: $cronos_pro;
+                margin: 30px 0 30px 40px;
+            }
+
+            .owl-carousel {
+                position: relative;
+                padding: 0 70px;
+                .owl-stage {
+                    display: flex;
+                    .owl-item{
+                        display: flex;
+		                flex: 1 0 auto;
+                        img{
+                            width: auto!important;
+                            margin: 0 auto;
+                        }
+                        &:nth-child(5n+1){
+                            .service-media{
+                                background: #6ccaec;
+                            }
+                        }
+    
+                        &:nth-child(5n+2){
+                            .service-media{
+                                background: #30acd9;
+                            }
+                        }
+    
+                        &:nth-child(5n+3){
+                            .service-media{
+                                background: #275495;
+                            }
+                        }
+    
+                        &:nth-child(5n+4){
+                            .service-media{
+                                background: #7300ab;
+                            }
+                        }
+                        &:nth-child(5n+5){
+                            .service-media{
+                                background: #3c2c69;
+                            }
+                        }
+                        &:hover{
+                            cursor: pointer;
+                            .service-desc{
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+                
+                .service-desc{
+                    bottom: 0;
+                    text-align: center;
+                    padding: 16px 20px;
+                    opacity: 0;
+                    transition: opacity 0.5s ease-in-out;
+                    h4{
+                        font-family: $cronos_pro;
+                        a{
+                            color: $azul_quemado;
+                        }
+                    }
+                    p{
+                        font-family: $roboto;
+                        font-weight: $f_light;
+                        font-size: 14px;
+                    }
+                    .btn-cta{
+                        display: block;
+                        background: url(../images/btn-related.png) no-repeat;
+                        text-indent: -9999px;
+                        height: 40px;
+                        background-position: center;
+                    }
+
+                    @include media-breakpoint-down(md){
+                        opacity: 1;
+                    }
+                }
+                
+                .owl-nav{
+                    button{
+                        height: 100%;
+                        padding: 0 27px!important;
+                        background: #6ccaec;
+                        color: $blanco;
+                        font-size: 40px;
+                        position: absolute;
+                        &.owl-prev {
+                            left: 0;
+                            top: 0;
+                        }
+                        &.owl-next {
+                            right: 0;
+                            top: 0;   
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}

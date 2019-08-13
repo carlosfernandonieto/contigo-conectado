@@ -240,3 +240,19 @@ function activate_plugin_via_php() {
 	update_option( 'active_plugins', $active_plugins );    
 }
 add_action( 'init', 'activate_plugin_via_php' );
+
+// Variable excerpt length.
+function dynamic_excerpt($length) { // Variable excerpt length. Length is set in characters
+	global $post;
+	$text = $post->post_excerpt;
+	if ( '' == $text ) {
+		$text = get_the_content('');
+		$text = apply_filters('the_content', $text);
+		$text = str_replace(']]>', ']]>', $text);
+	}
+	$text = strip_shortcodes($text); // optional, recommended
+	$text = strip_tags($text); // use ' $text = strip_tags($text,'<p><a>'); ' if you want to keep some tags
+	$text = mb_substr($text,0,$length).' ...';
+	echo $text; // Use this is if you want a unformatted text block
+	//echo apply_filters('the_excerpt',$text); // Use this if you want to keep line breaks
+}

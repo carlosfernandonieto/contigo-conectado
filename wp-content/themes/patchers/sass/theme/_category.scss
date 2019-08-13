@@ -136,9 +136,32 @@
             word-wrap: break-word;
             white-space: normal;
         }
+
+        h1{
+            color: $primary;
+        }
+
         #c-img-article{
             img{
-                width: 100%;
+                width: 100vw;
+                height: 50vh;
+                object-fit: cover;
+            }
+        }
+
+        .entry-meta{
+            font-family: $cronos_pro;
+            border-top: 4px solid $azul_quemado;
+            padding-top: 25px;
+            #p-day{
+                color: white;
+                text-shadow: -1px -1px 0 $primary, 1px -1px 0 $primary, -1px 1px 0 $primary, 1px 1px 0 $primary;
+                font-size: 63px;
+                line-height: 30px;
+            }
+            #p-month{
+                color: $azul_quemado;
+                font-size: 31px;
             }
         }
 
@@ -149,5 +172,81 @@
                 }
             }
         }
+
+        .share-buttons{
+            position: absolute;
+            list-style: none;
+            display:block;
+            top: 0;
+            width: 100%;
+            a{    
+                position:absolute;
+                top:0;
+                width: 100%;
+                display:none;
+                text-align:center;
+                &.show{
+                    display:inline-block;
+                    img{
+                        margin: 20px 0;
+                    }
+                    &:first-child{
+                        margin-top: 15px;
+                    }
+                }
+                &.social-share{
+                    background: $azul_claro;
+                    display: inline-block;
+                }
+            }
+            li{
+                display: block;
+            }    
+            img{
+                width: 50%;
+                margin: 10px 0;
+            }
+        }
+
+        aside{
+            h3{
+                color: $azul_quemado;
+                font-family: $cronos_pro;
+            }
+            article{
+                height: 25vh;
+                margin-bottom: 20px;
+                .relatedthumb{
+                    img{
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .relatedcontent{
+                    bottom: 0;
+                    padding: 14px 0;
+                    h4{
+                        font-family: $cronos_pro;
+                        font-size: 20px;
+                        a{
+                            color: $azul_quemado;
+                        }
+                    }
+                    p{
+                        font-family: $roboto;
+                        font-weight: $f_light;
+                        font-size: 14px;
+                    }
+                    .btn-cta{
+                        display: block;
+                        background: url(../images/btn-related.png) no-repeat;
+                        text-indent: -9999px;
+                        height: 40px;
+                        background-position: center;
+                    }
+                }                     
+            }
+        }
     }
+    
 }

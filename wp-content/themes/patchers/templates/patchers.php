@@ -20,19 +20,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 <section class="hero-category position-relative">
     <?php 
     if ( has_post_thumbnail() ) {
-        the_post_thumbnail();
+        the_post_thumbnail('full', array('class' => 'img-fluid w-100')  );
     }
     ?>
-    <h1 class="position-absolute"><?php the_title(); ?></h1>
-    <p class="position-absolute"><?php the_content(); ?></p>
+    <h1 class="invisible"><?php the_title(); ?></h1>
 </section>
 <div class="container">
     <?php the_breadcrumb();?>
 </div>
 
-<div class="wrapper" id="patchers">
+<div class="wrapper pt-0" id="patchers">
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content">
+	<div class="<?php echo esc_attr( $container ); ?>-fluid px-0" id="content">
 			<div class="col-md-12 content-area" id="primary">
 				<main class="site-main" id="main" role="main">
                     <div id="c-videos" class="row">
@@ -48,16 +47,21 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 $video = get_sub_field('enlace_del_video');
                                 ?>
 
-                                <div class="video col-12 col-sm-6 col-lg-4">
+                                <div class="video col-12 col-lg-6 col-xl-4 px-0">
                                     <a class="d-block video-y video-btn" data-toggle="modal" data-target="#myModal" data-src="<?php echo $video; ?>">
-                                        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
-                                        <h2><?php echo $titulo; ?></h2>
-                                        <p>
-                                            <?php if( $descripcion ): ?>
-                                                <?php echo $descripcion; ?>
-                                            <?php endif; ?>
-                                        </p>
-                                        <span><?php echo $duracion; ?></span>
+                                        <div class="c-poster-video position-relative">
+                                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="img-fluid w-100" />
+                                            <div class="position-absolute c-duracion"><?php echo $duracion; ?></div>
+                                        </div>
+                                        <div class="c-info-video">
+                                            <h2><?php echo $titulo; ?></h2>
+                                            <p>
+                                                <?php if( $descripcion ): ?>
+                                                    <?php echo $descripcion; ?>
+                                                <?php endif; ?>
+                                            </p>
+                                        </div>
+                                        
                                     </a>
                                 </div>
 
@@ -73,13 +77,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                             
                             <div class="modal-body">
 
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
                                 </button>        
                                 <!-- 16:9 aspect ratio -->
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
-                    </div>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                            </div>
 				</main><!-- #main -->
 
 			</div><!-- #primary -->
@@ -95,12 +99,12 @@ $container = get_theme_mod( 'understrap_container_type' );
             ?>
 
     <section id="featured-slider" class="my-4">
-        <div class="container">
+        <div class="container-fluid px-0">
         <h3>Artículos Destacados</h3>
             <div class="owl-carousel" role="listbox">
                         <?php
                         $args = array(
-                            'posts_per_page' => 9,
+                            'posts_per_page' => 10,
                             'meta_key' => 'meta-checkbox',
                             'meta_value' => 'yes'
                         );
@@ -109,11 +113,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                         
                         <?php if($query->have_posts()) : ?>
                             <?php while($query->have_posts()) : $query->the_post() ?>
-                                <div class="col">
-                                        <div class="service-media"> <?php the_post_thumbnail(); ?> </div>
-                                        <div class="service-desc">
-                                        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                                        <?php the_excerpt(); ?>
+                            <?php $image = get_field('imagen_categoria', $post->ID);?>
+                                <div class="col px-0 position-relative">
+                                        <div class="service-media h-100 d-flex"> <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid align-self-end" /> </div>
+                                        <div class="service-desc position-absolute bg-blanco-o w-100">
+                                            <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                            <p class="text-center"><?php dynamic_excerpt(145); ?></p>
+						                    <a class="btn-cta" href="<?php the_permalink();?>">Ver más</a>
                                         </div>
                                 </div>
                             <?php endwhile ?>
@@ -127,8 +133,13 @@ $container = get_theme_mod( 'understrap_container_type' );
     jQuery(document).ready(function($){
         $('.owl-carousel').owlCarousel({
             loop:true,
-            margin:10,
+            margin:0,
             responsiveClass:true,
+            dots: false,
+            navText: [
+            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+            '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+            ],
             responsive:{
                 0:{
                     items:1,
@@ -136,12 +147,11 @@ $container = get_theme_mod( 'understrap_container_type' );
                 },
                 600:{
                     items:2,
-                    nav:false
+                    nav:true
                 },
                 1000:{
                     items:3,
-                    nav:true,
-                    loop:false
+                    nav:true
                 }
             }
         });
