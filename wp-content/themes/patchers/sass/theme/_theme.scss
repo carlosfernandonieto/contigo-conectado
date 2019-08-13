@@ -3,6 +3,17 @@
 .entry-header{
     font-family: $cronos_pro;
 }
+
+.page{
+    h1{
+        font-family: $cronos_pro!important;
+        color: $azul_quemado;
+    }
+}
+
+.hero-category{
+    margin-top: 65px;
+}
 // Keyframes
 
 @-webkit-keyframes glitch {
@@ -138,110 +149,23 @@
     }
     
 }
-// Quienes Somos
 
-// Categoría Resultados
-
-/*Textos 
--------------------------------------------------------------------------------------------------------------------------------------------
-*/
-.ache1 {
-	color: #fff !important;
-	font-size: 3rem !important;
-	font-weight: 500;
-	text-shadow: 0 1px 1px #292B34;
-    line-height: 100%;
-    
-    span{
-        font-size: 2rem !important;
+// Filtros
+.dropdown{
+    .filter{
+        border:1px solid $azul_claro;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: $cronos_pro;
+        color: $azul_quemado;
+        border-radius: 0;
     }
-}
-
-.ache2 {
-	color: #292B34!important;
-	font-size: 1.5rem !important;
-}
-.ache3 {
-	color: $azul_claro!important;
-	font-size: 2rem !important;
-	font-weight: bolder !important;
-	margin: 0 auto 16px;
-	display: table;
-}
-
-.filtro {
-	margin-bottom: 1rem;
-	width: auto;
-}
-.foto-pregunta {
-	text-align: center;
-    width: 100%;
-    img {
-        width: 80%;
+    .dropdown-toggle{
+        background: $azul_claro;
+        border-radius: 0;
+        font-size: 20px;
+        color: $blanco;
     }
-}
-.gris {
-	color: #828282 !important;
-    font-size: 1rem;
-    p {
-        color: #828282 !important;
-        font-size: 1rem;
-    }
-}
-
-.pregunta {
-	font-size: .88rem!important;
-	font-weight: 400;
-	color:#00377B!important;
-    text-align: center;
-    span {
-    color: $azul_claro!important;
-    }
-}
-
-.titulo {
-	position: relative;
-    width: 100%;
-    p {
-        color: #fff !important;
-        font-size: 1rem !important;
-        text-shadow: 0 1px 1px #292B34;
-    }
-}
-
-.contenedor {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-}
-
-.desktop {
-	display: block;
-}
-.medio {
-	margin: 0 auto 1rem;
-	width: 47.5%;
-}
-.mobile {
-	display: none;
-}
-.tercio {
-	margin: 0 auto 1rem;
-	width: 30%;	
-}
-.full {
-	width: 100%;
-}
-@media only screen and (max-width: 750px) {
-	.desktop {
-		display: none !important;
-	}
-	.medio {
-		width: 100%;
-	}
-	.mobile {
-		display: inherit;
-	}
 }
 
 // Popup Form

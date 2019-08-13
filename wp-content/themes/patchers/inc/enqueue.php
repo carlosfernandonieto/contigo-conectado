@@ -47,23 +47,6 @@ function owl_css() {
 }
 add_action( 'wp_enqueue_scripts', 'owl_css' );
 
-//function mainJS(){
-    //wp_enqueue_script('main-js', get_stylesheet_directory_uri() . '/js/resultados/main.js', array( 'jquery' ) );
-//}
-//add_action('wp_enqueue_scripts', "mainJS");
-
-function animate_number(){
-    wp_enqueue_script('animate-number', get_stylesheet_directory_uri() . '/js/resultados/jquery.animateNumber.min.js', array( 'jquery' ) );
-}
-add_action('wp_enqueue_scripts', "animate_number");
-
-function acciones_uso(){
-    wp_enqueue_script('acciones-uso', get_stylesheet_directory_uri() . '/js/resultados/acciones_uso.js', array( 'jquery' ) );
-}
-add_action('wp_enqueue_scripts', "acciones_uso");
-
-// The proper way to enqueue GSAP script
-// wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );
 function theme_gsap_script() {
     wp_enqueue_script( 'gsap-js', '//cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js', array(), false, true );
 }

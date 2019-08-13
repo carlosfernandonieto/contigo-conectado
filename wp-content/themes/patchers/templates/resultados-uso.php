@@ -16,22 +16,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <section class="hero-category position-relative">
     <?php 
-    if ( has_post_thumbnail() ) {
-        the_post_thumbnail();
-    }
-    ?><!-- /imagen pagina -->
-	<div class="container">
-        <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?><!-- /H1 -->
-    </div>
+        echo get_field('hero_content');
+	?>
 </section>
 <div class="container">
     <?php the_breadcrumb();?>
 </div><!-- /ruta de navegacion -->
 
-<?php get_template_part( 'loop-templates/content', 'menuresultados' ); ?><!-- /menu categorias -->
 <?php get_template_part( 'loop-templates/content', 'filtros' ); ?><!-- /filtros categorias -->
 
-<div class="wrapper" id="p-nosotros">
+<div class="wrapper" id="p-resultados">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
 

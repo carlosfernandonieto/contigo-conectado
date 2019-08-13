@@ -16,16 +16,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <section class="hero-category position-relative">
     <?php 
-    if ( has_post_thumbnail() ) {
-        the_post_thumbnail();
-    }
-    ?>
+        echo get_field('hero_content');
+	?>
 </section>
 <div class="container">
     <?php the_breadcrumb();?>
 </div>
 
-<div class="wrapper" id="p-nosotros">
+<div class="wrapper" id="p-resultados">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
 
@@ -52,13 +50,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                         echo "<div class='row'>";
                         // loop through the rows of data
                         while ( have_rows('categorias') ) : the_row();
-                            echo "<div class='col-6 col-md-4'>";
+                            $image = get_sub_field('icono');
+                            echo "<div class='col-6 col-md-4 px-0 c-resultado text-center'>";
                             // display a sub field value
-                            echo "<p>";
-                            the_sub_field('icono');
-                            echo "<h3>";the_sub_field('titulo_resultado');echo "</h3>";
+                            echo "<img src='".$image['url']."' alt='".$image['alt']."' class='mx-auto' />";
+                            echo "<h2 class='c-blanco text-uppercase'>";the_sub_field('titulo_resultado');echo "</h2>";
                             echo "<a href='"; the_sub_field('url'); echo "'>Ver Más</a>";
-                            echo "</p>";
                             echo "</div>";
                         endwhile;
                         echo "</div>";

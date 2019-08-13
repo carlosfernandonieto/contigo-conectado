@@ -16,10 +16,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <section class="hero-category position-relative">
     <?php 
-    if ( has_post_thumbnail() ) {
-        the_post_thumbnail();
-    }
-    ?>
+        echo get_field('hero_content');
+	?>
 </section>
 <div class="container">
     <?php the_breadcrumb();?>
@@ -28,7 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="full-width-page-wrapper">
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content">
+	<div class="<?php echo esc_attr( $container ); ?>-fluid px-0" id="content">
 
 		<div class="row">
 
@@ -50,7 +48,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             
                             ?>
                             <div id="informes">
-                                <div class="container">
+                                <div class="container-fluid">
                                     <div class="row mb-4">
                                         <div class="col-12 col-md-5 px-0 img-resultado">
                                             <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
