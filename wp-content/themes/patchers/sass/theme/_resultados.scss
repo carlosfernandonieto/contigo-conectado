@@ -172,3 +172,68 @@
         }
     }
 }
+// Pagina descargables
+#p-descargables{
+    h2{
+        color: $azul_quemado;
+        letter-spacing: 1px;
+        font-family: $cronos_pro;
+        margin-bottom: 20px;
+    }
+    a{
+        color: $blanco;
+        font-family: $roboto;
+        font-weight: $f_light;
+    }
+    #c-informe-g{
+        background-size: cover!important;
+        padding-top: 230px;
+        h3{
+            font-family: $cronos_pro;
+            letter-spacing: 1px;
+        }
+    }
+
+    #c-ciudades{
+        .ciudad-single{
+            .ciudades{
+                h3{
+                    font-family: $cronos_pro;
+                    color: $azul_quemado;
+                    font-size: 18px;
+                    padding: 30px 30px;
+                }
+                a{
+                    padding: 35px 50px;
+                    text-align: center;
+                    &:nth-child(2){
+                        background: $azul_claro;
+                    }
+                    &:nth-child(3){
+                        background: $azul_quemado;
+                    }
+
+                    &:after{
+                        content: "";
+                        display: inline-block;
+                        background: url(../images/icon-download.png) no-repeat;
+                        width: 38px;
+                        height: 38px;
+                        margin-left: 20px;
+                        position: relative;
+                        top: 15px;
+                    }
+                }
+            }
+            .img-resultado{
+                object-fit: cover;
+            }
+            &:nth-child(2n+2){
+                .img-resultado{
+                    order: 1;
+                }
+            }
+        }
+    }
+}
+

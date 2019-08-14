@@ -48,33 +48,21 @@ jQuery(document).ready(function($) {
         });
     });
 
-    
 });
 
 // Parallax
 
-jQuery(window).scroll(function(){
+document.addEventListener('DOMContentLoaded', () => {
+  window.addEventListener('scroll', () => {
+      const y = window.scrollY
+      const height = document.body.scrollHeight - window.innerHeight
+      const progress = y / height
+      TweenMax.to(tl1, 0.5, {progress: progress, ease:Power3.easeOut})
+  })
+  const tl1 = new TimelineMax().pause()
 
-    // Add parallax scrolling to all images in .paralax-image container
-    jQuery('.img-articulo').each(function(){
-      // only put top value if the window scroll has gone beyond the top of the image
-      if (jQuery(this).offset().top < jQuery(window).scrollTop()) {
-        // Get ammount of pixels the image is above the top of the window
-        var difference = jQuery(window).scrollTop() - jQuery(this).offset().top;
-        // Top value of image is set to half the amount scrolled
-        // (this gives the illusion of the image scrolling slower than the rest of the page)
-        var half = (difference / 2) + 'px';
+  tl1.from('.img-articulo img', 0, { y: '0%' })
+      .to('.img-articulo img', 1, { y: '-100%', ease: Power0.easeNone })
   
-        jQuery(this).find('img').css('top', half);
-      } else {
-        // if image is below the top of the window set top to 0
-        var difference = jQuery(window).scrollTop() - jQuery(this).offset().top;
-
-       
-        var half = (difference / 2) + 'px';
-  
-        jQuery(this).find('img').css('top', half);
-      }
-    });
 });
 

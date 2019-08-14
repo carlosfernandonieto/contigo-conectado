@@ -124,8 +124,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="col-12 col-md-5">
 									<div class="collapse navbar-collapse menu-off position-relative" id="cap-menu">
 									<?php 
-									$image = get_field('capitulo');
-									$glitch = get_field('glitch');
+									$image = get_field('capitulo', 2507);
+									$glitch = get_field('glitch', 2507);
 
 
 									if( !empty($image) ): ?>

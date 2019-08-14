@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) || exit;
         <div class="col-12 col-lg-4 px-0">
         <?php the_post_thumbnail('full', array('class' => 'h-100')); ?>
         </div>
-        <div class="col-12 col-lg-8 border">
+        <div class="col-12 col-lg-8 py-3 border">
             <header class="entry-header">
                 <?php
                 the_title(
@@ -27,6 +27,11 @@ defined( 'ABSPATH' ) || exit;
                 <?php if ( 'post' == get_post_type() ) : ?>
 
                 <?php endif; ?>
+                <?php 
+                    $category = get_the_category( $post->ID ); 
+                    $category_link = get_category_link( $category[0]->term_taxonomy_id);
+                    echo "<a href='".$category_link."' class='link-category'>".$category[0]->name."</a>"; 
+                ?>
             </header><!-- .entry-header -->
             <div class="entry-summary">
                 <?php the_excerpt(); ?>

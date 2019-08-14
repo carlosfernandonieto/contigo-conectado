@@ -14,7 +14,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 ?>
 
+
 <div class="wrapper" id="search-wrapper">
+<div class="container">
+	<?php the_breadcrumb();?>
+	<div class="row">
+		
+		<div class="col-12 col-lg-5 mx-auto">
+			<?php get_search_form();?>
+		</div>
+	</div>
+</div>
+
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
@@ -27,15 +38,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<?php if ( have_posts() ) : ?>
 
-					<header class="page-header mb-4">
+					<header class="page-header mt-4 mb-4">
 
 							<h1 class="page-title">
+								<?php 
+									$allsearch = new WP_Query("s=$s&showposts=0"); 
+									echo $allsearch ->found_posts.' resultados para: ' ,'<strong>' . get_search_query() . '</strong>';
+								?>
 								<?php
-								printf(
-									/* translators: %s: query term */
-									esc_html__( 'Search Results for: %s', 'understrap' ),
-									'<span>' . get_search_query() . '</span>'
-								);
+
 								?>
 							</h1>
 

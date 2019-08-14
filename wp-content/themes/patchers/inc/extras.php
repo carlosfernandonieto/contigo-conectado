@@ -170,7 +170,11 @@ function the_breadcrumb() {
 	// If the current page is a static page, show its title.
         if (is_page()) {
             echo the_title();
-        }
+		}
+	// Resultados de búsqueda	
+		if (is_search()) {
+			echo "Resultados de búsqueda";
+		}
 	
 	// if you have a static page assigned to be you posts list page. It will find the title of the static page and display it. i.e Home >> Blog
         if (is_home()){
@@ -184,7 +188,8 @@ function the_breadcrumb() {
             }
         }
         echo '</div>';
-    }
+	}
+
 }
 
 function sm_custom_meta() {
@@ -252,7 +257,7 @@ function dynamic_excerpt($length) { // Variable excerpt length. Length is set in
 	}
 	$text = strip_shortcodes($text); // optional, recommended
 	$text = strip_tags($text); // use ' $text = strip_tags($text,'<p><a>'); ' if you want to keep some tags
-	$text = mb_substr($text,0,$length).' ...';
+	$text = mb_substr($text,0,$length).'...';
 	echo $text; // Use this is if you want a unformatted text block
 	//echo apply_filters('the_excerpt',$text); // Use this if you want to keep line breaks
 }

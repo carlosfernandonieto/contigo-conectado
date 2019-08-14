@@ -26,7 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="full-width-page-wrapper">
 
-	<div class="<?php echo esc_attr( $container ); ?>-fluid px-0" id="content">
+	<div class="<?php echo esc_attr( $container ); ?>-fluid px-0" id="p-descargables">
 
 		<div class="row">
 
@@ -36,7 +36,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<?php while ( have_posts() ) : the_post(); ?>
 
-						<?php get_template_part( 'loop-templates/content', 'quienes' ); ?>
+						<?php get_template_part( 'loop-templates/content', 'descargables' ); ?>
 
 						<?php if( have_rows('informes') ): 
 
@@ -49,20 +49,18 @@ $container = get_theme_mod( 'understrap_container_type' );
                             ?>
                             <div id="informes">
                                 <div class="container-fluid">
-                                    <div class="row mb-4">
-                                        <div class="col-12 col-md-5 px-0 img-resultado">
-                                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-                                        </div>
-                                        <div class="col-12 col-md-7 cont-resultado border">
-                                            <h3><?php the_sub_field('titulo'); ?></h3>
-                                            
+                                    <div id="c-informe-g" class="row mb-4" style="background:url(<?php echo $image['url']; ?>) no-repeat;">
+                                        <div class="col-4 cont-resultado mx-auto text-center bg-azul-o c-blanco py-4">
+                                            <h3 class="text-uppercase"><?php the_sub_field('titulo'); ?></h3>
                                             <a href="<?php echo $link['url']; ?>" target="_blank"><?php the_sub_field('texto'); ?></a>
+                                            <p class="mb-0 mt-2"><a href="<?php echo $link['url']; ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-download.png" alt="Descargar"></a></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <hr>
-                            <h3>Principales resultados del estudio</h3>
+                            <div class="container">
+                                <h2 class="text-uppercase">Principales resultados del estudio</h2>
+                            </div>
                         <?php endwhile; ?>
 
                         <?php endif; ?>
@@ -83,31 +81,31 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     if ( have_rows( 'ciudad' ) ) : ?>
 
                                    
-                                        <div class="ciudades">
-                                            <div class="container">
+                                        <div id="c-ciudades">
+                                            <div class="container-fluid">
                                             <?php
                                             while ( have_rows( 'ciudad' ) ) : the_row();
                                                 $nombre = get_sub_field( 'nombre' );
                                                 $imagen_city = get_sub_field('imagen');
                                             ?>
 
-                                            <div class="ciudad-single row mb-4">
-                                                <div class="col-12 col-md-5 px-0 img-resultado">
-                                                    <img src="<?php echo $imagen_city['url']; ?>" alt="<?php echo $imagen_city['alt']; ?>" />
+                                            <div class="ciudad-single row mb-4 mt-4">
+                                                <div class="col-12 col-md-8 px-0 img-resultado">
+                                                    <img src="<?php echo $imagen_city['url']; ?>" alt="<?php echo $imagen_city['alt']; ?>" class="img-fluid w-100 h-100"/>
                                                 </div>
                                                 
                                                 <?php // Ciudades Sub Repeater.
                                                 if ( have_rows( 'descargables' ) ) : ?>
 
-                                                <div class="col-12 col-md-7 cont-resultado border">
+                                                <div class="col-12 col-md-4 c-resultado px-0">
                                                     <div class="ciudades">
-                                                        <h3><?php echo esc_html( $nombre ); ?></h3>
+                                                        <h3 class="text-uppercase"><?php echo esc_html( $nombre ); ?></h3>
                                                         <?php
                                                         while ( have_rows( 'descargables' ) ) : the_row();
                                                             $titulo = get_sub_field( 'titulo' );
                                                             $archivo = get_sub_field( 'archivo' );
                                                         ?>
-                                                            <a href="<?php echo esc_html( $archivo ); ?>"><?php echo esc_html( $titulo ); ?></a>
+                                                            <a href="<?php echo esc_html( $archivo ); ?>" class="d-block"><?php echo esc_html( $titulo ); ?></a>
                                                         <?php endwhile; ?> 
                                                     </div>
                                                 </div>
