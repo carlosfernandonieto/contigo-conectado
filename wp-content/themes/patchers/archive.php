@@ -21,12 +21,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 	echo get_field('hero_content', 'category_'.$category->term_id);
 	?>
 	<div class="<?php echo esc_attr( $container ); ?>-fluid px-0" id="content" tabindex="-1">
-
+a
 			<!-- Do the left sidebar check -->
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
 			<main class="site-main" id="main">
-				<div class="container px-0">
+				<div class="container px-md-0">
 					<?php the_breadcrumb(); ?>
 				</div>
 

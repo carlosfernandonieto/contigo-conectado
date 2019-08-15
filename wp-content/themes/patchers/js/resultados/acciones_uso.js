@@ -192,138 +192,138 @@ var textos_total_15 = ['SI']
 //USO Y ACCESO----------------------- botones gris
 
 function todosbtengris_1(){
-	jQuery(".cont_sli_1 .img_valor_menu_1").css( { 'background': 'url(imges/foto3-tigo-une.png) -5px -84px'});
-	jQuery(".cont_sli_1 .img_valor_menu_2").css( { 'background': 'url(imges/foto3-tigo-une.png) -115px -84px'});
-	jQuery(".cont_sli_1 .img_valor_menu_3").css( { 'background': 'url(imges/foto3-tigo-une.png) -225px -84px'});
-	jQuery(".cont_sli_1 .img_valor_menu_4").css( { 'background': 'url(imges/foto3-tigo-une.png) -335px -84px'});
-	jQuery(".cont_sli_1 .img_valor_menu_5").css( { 'background': 'url(imges/foto3-tigo-une.png) -445px -84px'});
-	jQuery(".cont_sli_1 .img_valor_menu_6").css( { 'background': 'url(imges/foto3-tigo-une.png) -555px -84px'});
-	jQuery(".cont_sli_1 .img_valor_menu_7").css( { 'background': 'url(imges/foto3-tigo-une.png) -665px -84px'});
-	jQuery(".cont_sli_1 .img_valor_menu_8").css( { 'background': 'url(imges/foto3-tigo-une.png) -775px -84px'});
-	jQuery(".cont_sli_1 .img_valor_menu_9").css( { 'background': 'url(imges/foto3-tigo-une.png) -885px -84px'});
+	$(".cont_sli_1 .img_valor_menu_1").css( { 'background': 'url(imges/foto3-tigo-une.png) -5px -84px'});
+	$(".cont_sli_1 .img_valor_menu_2").css( { 'background': 'url(imges/foto3-tigo-une.png) -115px -84px'});
+	$(".cont_sli_1 .img_valor_menu_3").css( { 'background': 'url(imges/foto3-tigo-une.png) -225px -84px'});
+	$(".cont_sli_1 .img_valor_menu_4").css( { 'background': 'url(imges/foto3-tigo-une.png) -335px -84px'});
+	$(".cont_sli_1 .img_valor_menu_5").css( { 'background': 'url(imges/foto3-tigo-une.png) -445px -84px'});
+	$(".cont_sli_1 .img_valor_menu_6").css( { 'background': 'url(imges/foto3-tigo-une.png) -555px -84px'});
+	$(".cont_sli_1 .img_valor_menu_7").css( { 'background': 'url(imges/foto3-tigo-une.png) -665px -84px'});
+	$(".cont_sli_1 .img_valor_menu_8").css( { 'background': 'url(imges/foto3-tigo-une.png) -775px -84px'});
+	$(".cont_sli_1 .img_valor_menu_9").css( { 'background': 'url(imges/foto3-tigo-une.png) -885px -84px'});
 	
 }
 
 function todosbtengris_2(){
-	jQuery(".cont_sli_2 .img_valor_menu_1").css( { 'background': 'url(imges/foto3-tigo-une.png) -5px -84px'});
-	jQuery(".cont_sli_2 .img_valor_menu_2").css( { 'background': 'url(imges/foto3-tigo-une.png) -115px -84px'});
-	jQuery(".cont_sli_2 .img_valor_menu_3").css( { 'background': 'url(imges/foto3-tigo-une.png) -225px -84px'});
-	jQuery(".cont_sli_2 .img_valor_menu_4").css( { 'background': 'url(imges/foto3-tigo-une.png) -335px -84px'});
-	jQuery(".cont_sli_2 .img_valor_menu_5").css( { 'background': 'url(imges/foto3-tigo-une.png) -445px -84px'});
-	jQuery(".cont_sli_2 .img_valor_menu_6").css( { 'background': 'url(imges/foto3-tigo-une.png) -555px -84px'});
-	jQuery(".cont_sli_2 .img_valor_menu_7").css( { 'background': 'url(imges/foto3-tigo-une.png) -665px -84px'});
-	jQuery(".cont_sli_2 .img_valor_menu_8").css( { 'background': 'url(imges/foto3-tigo-une.png) -775px -84px'});
-	jQuery(".cont_sli_2 .img_valor_menu_9").css( { 'background': 'url(imges/foto3-tigo-une.png) -885px -84px'});	
+	$(".cont_sli_2 .img_valor_menu_1").css( { 'background': 'url(imges/foto3-tigo-une.png) -5px -84px'});
+	$(".cont_sli_2 .img_valor_menu_2").css( { 'background': 'url(imges/foto3-tigo-une.png) -115px -84px'});
+	$(".cont_sli_2 .img_valor_menu_3").css( { 'background': 'url(imges/foto3-tigo-une.png) -225px -84px'});
+	$(".cont_sli_2 .img_valor_menu_4").css( { 'background': 'url(imges/foto3-tigo-une.png) -335px -84px'});
+	$(".cont_sli_2 .img_valor_menu_5").css( { 'background': 'url(imges/foto3-tigo-une.png) -445px -84px'});
+	$(".cont_sli_2 .img_valor_menu_6").css( { 'background': 'url(imges/foto3-tigo-une.png) -555px -84px'});
+	$(".cont_sli_2 .img_valor_menu_7").css( { 'background': 'url(imges/foto3-tigo-une.png) -665px -84px'});
+	$(".cont_sli_2 .img_valor_menu_8").css( { 'background': 'url(imges/foto3-tigo-une.png) -775px -84px'});
+	$(".cont_sli_2 .img_valor_menu_9").css( { 'background': 'url(imges/foto3-tigo-une.png) -885px -84px'});	
 }
 
 function todosbtengris_3(){
-	jQuery(".cont_sli_3 .img_valor_menu_1").css( { 'background': 'url(imges/foto3-tigo-une.png) -5px -84px'});
-	jQuery(".cont_sli_3 .img_valor_menu_2").css( { 'background': 'url(imges/foto3-tigo-une.png) -115px -84px'});
-	jQuery(".cont_sli_3 .img_valor_menu_3").css( { 'background': 'url(imges/foto3-tigo-une.png) -225px -84px'});
-	jQuery(".cont_sli_3 .img_valor_menu_4").css( { 'background': 'url(imges/foto3-tigo-une.png) -335px -84px'});
-	jQuery(".cont_sli_3 .img_valor_menu_5").css( { 'background': 'url(imges/foto3-tigo-une.png) -445px -84px'});
-	jQuery(".cont_sli_3 .img_valor_menu_6").css( { 'background': 'url(imges/foto3-tigo-une.png) -555px -84px'});
-	jQuery(".cont_sli_3 .img_valor_menu_7").css( { 'background': 'url(imges/foto3-tigo-une.png) -665px -84px'});
-	jQuery(".cont_sli_3 .img_valor_menu_8").css( { 'background': 'url(imges/foto3-tigo-une.png) -775px -84px'});
-	jQuery(".cont_sli_3 .img_valor_menu_9").css( { 'background': 'url(imges/foto3-tigo-une.png) -885px -84px'});	
+	$(".cont_sli_3 .img_valor_menu_1").css( { 'background': 'url(imges/foto3-tigo-une.png) -5px -84px'});
+	$(".cont_sli_3 .img_valor_menu_2").css( { 'background': 'url(imges/foto3-tigo-une.png) -115px -84px'});
+	$(".cont_sli_3 .img_valor_menu_3").css( { 'background': 'url(imges/foto3-tigo-une.png) -225px -84px'});
+	$(".cont_sli_3 .img_valor_menu_4").css( { 'background': 'url(imges/foto3-tigo-une.png) -335px -84px'});
+	$(".cont_sli_3 .img_valor_menu_5").css( { 'background': 'url(imges/foto3-tigo-une.png) -445px -84px'});
+	$(".cont_sli_3 .img_valor_menu_6").css( { 'background': 'url(imges/foto3-tigo-une.png) -555px -84px'});
+	$(".cont_sli_3 .img_valor_menu_7").css( { 'background': 'url(imges/foto3-tigo-une.png) -665px -84px'});
+	$(".cont_sli_3 .img_valor_menu_8").css( { 'background': 'url(imges/foto3-tigo-une.png) -775px -84px'});
+	$(".cont_sli_3 .img_valor_menu_9").css( { 'background': 'url(imges/foto3-tigo-une.png) -885px -84px'});	
 }
 
 //USO Y ACCESO----------------------- recargar
 
 function alcargar(){
 	todosbtengris_1();
-	jQuery('.cont_sli_1 .img_valor_menu_1').css( {'background':'url(imges/foto3-tigo-une.png) -5px -9px'});
-	jQuery('.cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_total[0] });	
-	jQuery('.cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_total[1] });
-	jQuery('.cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_total[2] });
-	jQuery('.cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_total[3] });
-	jQuery('.cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_total[4] });
-	jQuery('.cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_total[5] });
-	jQuery('.cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_total[6] });
-	jQuery('.cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_total[7] });
-	jQuery('.cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_total[8] });		
+	$('.cont_sli_1 .img_valor_menu_1').css( {'background':'url(imges/foto3-tigo-une.png) -5px -9px'});
+	$('.cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_total[0] });	
+	$('.cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_total[1] });
+	$('.cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_total[2] });
+	$('.cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_total[3] });
+	$('.cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_total[4] });
+	$('.cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_total[5] });
+	$('.cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_total[6] });
+	$('.cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_total[7] });
+	$('.cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_total[8] });		
 
-	jQuery(".cont_sli_1 .img_valor_1 img").attr('src',iconos_total[0]);
-	jQuery(".cont_sli_1 .img_valor_2 img").attr('src',iconos_total[1]);
-	jQuery(".cont_sli_1 .img_valor_3 img").attr('src',iconos_total[2]);
-	jQuery(".cont_sli_1 .img_valor_4 img").attr('src',iconos_total[3]);
-	jQuery(".cont_sli_1 .img_valor_5 img").attr('src',iconos_total[3]);
-	jQuery(".cont_sli_1 .img_valor_6 img").attr('src',iconos_total[1]);
-	jQuery(".cont_sli_1 .img_valor_7 img").attr('src',iconos_total[1]);
-	jQuery(".cont_sli_1 .img_valor_8 img").attr('src',iconos_total[1]);
-	jQuery(".cont_sli_1 .img_valor_9 img").attr('src',iconos_total[4]);
+	$(".cont_sli_1 .img_valor_1 img").attr('src',iconos_total[0]);
+	$(".cont_sli_1 .img_valor_2 img").attr('src',iconos_total[1]);
+	$(".cont_sli_1 .img_valor_3 img").attr('src',iconos_total[2]);
+	$(".cont_sli_1 .img_valor_4 img").attr('src',iconos_total[3]);
+	$(".cont_sli_1 .img_valor_5 img").attr('src',iconos_total[3]);
+	$(".cont_sli_1 .img_valor_6 img").attr('src',iconos_total[1]);
+	$(".cont_sli_1 .img_valor_7 img").attr('src',iconos_total[1]);
+	$(".cont_sli_1 .img_valor_8 img").attr('src',iconos_total[1]);
+	$(".cont_sli_1 .img_valor_9 img").attr('src',iconos_total[4]);
 
-	jQuery(".cont_sli_1 .cuadroval_1 p").html(textos_total[0]);
-	jQuery(".cont_sli_1 .cuadroval_2 p").html(textos_total[1]);
-	jQuery(".cont_sli_1 .cuadroval_3 p").html(textos_total[2]);
-	jQuery(".cont_sli_1 .cuadroval_4 p").html(textos_total[3]);
-	jQuery(".cont_sli_1 .cuadroval_5 p").html(textos_total[4]);
-	jQuery(".cont_sli_1 .cuadroval_6 p").html(textos_total[5]);
-	jQuery(".cont_sli_1 .cuadroval_7 p").html(textos_total[6]);
-	jQuery(".cont_sli_1 .cuadroval_8 p").html(textos_total[7]);
-	jQuery(".cont_sli_1 .cuadroval_9 p").html(textos_total[8]);	
+	$(".cont_sli_1 .cuadroval_1 p").html(textos_total[0]);
+	$(".cont_sli_1 .cuadroval_2 p").html(textos_total[1]);
+	$(".cont_sli_1 .cuadroval_3 p").html(textos_total[2]);
+	$(".cont_sli_1 .cuadroval_4 p").html(textos_total[3]);
+	$(".cont_sli_1 .cuadroval_5 p").html(textos_total[4]);
+	$(".cont_sli_1 .cuadroval_6 p").html(textos_total[5]);
+	$(".cont_sli_1 .cuadroval_7 p").html(textos_total[6]);
+	$(".cont_sli_1 .cuadroval_8 p").html(textos_total[7]);
+	$(".cont_sli_1 .cuadroval_9 p").html(textos_total[8]);	
 }
 
 function alcargar_2(){
 	todosbtengris_2();
 	
-	jQuery('.cont_sli_2 .img_valor_menu_1').css( {'background':'url(imges/foto3-tigo-une.png) -5px -9px'});
-	jQuery('.cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_total_2[0] });	
-	jQuery('.cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_total_2[1] });
-	jQuery('.cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_total_2[2] });	
-	jQuery('.cont_sli_2 .cuadroval_4').css({'display': 'none'});
-	jQuery('.cont_sli_2 .cuadroval_5').css({'display': 'none'});
-	jQuery('.cont_sli_2 .cuadroval_6').css({'display': 'none'});
-	jQuery('.cont_sli_2 .cuadroval_7').css({'display': 'none'});
-	jQuery('.cont_sli_2 .cuadroval_8').css({'display': 'none'});
-	jQuery('.cont_sli_2 .cuadroval_9').css({'display': 'none'});
+	$('.cont_sli_2 .img_valor_menu_1').css( {'background':'url(imges/foto3-tigo-une.png) -5px -9px'});
+	$('.cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_total_2[0] });	
+	$('.cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_total_2[1] });
+	$('.cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_total_2[2] });	
+	$('.cont_sli_2 .cuadroval_4').css({'display': 'none'});
+	$('.cont_sli_2 .cuadroval_5').css({'display': 'none'});
+	$('.cont_sli_2 .cuadroval_6').css({'display': 'none'});
+	$('.cont_sli_2 .cuadroval_7').css({'display': 'none'});
+	$('.cont_sli_2 .cuadroval_8').css({'display': 'none'});
+	$('.cont_sli_2 .cuadroval_9').css({'display': 'none'});
 	
-	jQuery(".cont_sli_2 .img_valor_1 img").attr('src',iconos_total[5]);
-	jQuery(".cont_sli_2 .img_valor_2 img").attr('src',iconos_total[6]);
-	jQuery(".cont_sli_2 .img_valor_3 img").attr('src',iconos_total[7]);
+	$(".cont_sli_2 .img_valor_1 img").attr('src',iconos_total[5]);
+	$(".cont_sli_2 .img_valor_2 img").attr('src',iconos_total[6]);
+	$(".cont_sli_2 .img_valor_3 img").attr('src',iconos_total[7]);
 	
-	jQuery(".cont_sli_2 .cuadroval_1 p").html(textos_total_2[0]);
-	jQuery(".cont_sli_2 .cuadroval_2 p").html(textos_total_2[1]);
-	jQuery(".cont_sli_2 .cuadroval_3 p").html(textos_total_2[2]);
+	$(".cont_sli_2 .cuadroval_1 p").html(textos_total_2[0]);
+	$(".cont_sli_2 .cuadroval_2 p").html(textos_total_2[1]);
+	$(".cont_sli_2 .cuadroval_3 p").html(textos_total_2[2]);
 	
 }
 
 function alcargar_3(){
 	todosbtengris_3();
-	jQuery(' .cont_sli_3 .img_valor_menu_1').css( {'background':'url(imges/foto3-tigo-une.png) -5px -9px'});
-	jQuery(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_total_3[0] });	
-	jQuery(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_total_3[1] });
-	jQuery(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_total_3[2] });
-	jQuery(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_total_3[3] });
-	jQuery(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_total_3[4] });
-	jQuery(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_total_3[5] });
-	jQuery(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_total_3[6] });
-	jQuery(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_total_3[7] });
-	jQuery(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_total_3[8] });		
+	$(' .cont_sli_3 .img_valor_menu_1').css( {'background':'url(imges/foto3-tigo-une.png) -5px -9px'});
+	$(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_total_3[0] });	
+	$(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_total_3[1] });
+	$(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_total_3[2] });
+	$(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_total_3[3] });
+	$(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_total_3[4] });
+	$(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_total_3[5] });
+	$(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_total_3[6] });
+	$(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_total_3[7] });
+	$(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_total_3[8] });		
 
-	jQuery(".cont_sli_3 .img_valor_1 img").attr('src',iconos_total[0]);
-	jQuery(".cont_sli_3 .img_valor_2 img").attr('src',iconos_total[1]);
-	jQuery(".cont_sli_3 .img_valor_3 img").attr('src',iconos_total[2]);
-	jQuery(".cont_sli_3 .img_valor_4 img").attr('src',iconos_total[3]);
-	jQuery(".cont_sli_3 .img_valor_5 img").attr('src',iconos_total[3]);
-	jQuery(".cont_sli_3 .img_valor_6 img").attr('src',iconos_total[1]);
-	jQuery(".cont_sli_3 .img_valor_7 img").attr('src',iconos_total[1]);
-	jQuery(".cont_sli_3 .img_valor_8 img").attr('src',iconos_total[1]);
-	jQuery(".cont_sli_3 .img_valor_9 img").attr('src',iconos_total[4]);
+	$(".cont_sli_3 .img_valor_1 img").attr('src',iconos_total[0]);
+	$(".cont_sli_3 .img_valor_2 img").attr('src',iconos_total[1]);
+	$(".cont_sli_3 .img_valor_3 img").attr('src',iconos_total[2]);
+	$(".cont_sli_3 .img_valor_4 img").attr('src',iconos_total[3]);
+	$(".cont_sli_3 .img_valor_5 img").attr('src',iconos_total[3]);
+	$(".cont_sli_3 .img_valor_6 img").attr('src',iconos_total[1]);
+	$(".cont_sli_3 .img_valor_7 img").attr('src',iconos_total[1]);
+	$(".cont_sli_3 .img_valor_8 img").attr('src',iconos_total[1]);
+	$(".cont_sli_3 .img_valor_9 img").attr('src',iconos_total[4]);
 
-	jQuery(".cont_sli_3 .cuadroval_1 p").html(textos_total_3[0]);
-	jQuery(".cont_sli_3 .cuadroval_2 p").html(textos_total_3[1]);
-	jQuery(".cont_sli_3 .cuadroval_3 p").html(textos_total_3[2]);
-	jQuery(".cont_sli_3 .cuadroval_4 p").html(textos_total_3[3]);
-	jQuery(".cont_sli_3 .cuadroval_5 p").html(textos_total_3[4]);
-	jQuery(".cont_sli_3 .cuadroval_6 p").html(textos_total_3[5]);
-	jQuery(".cont_sli_3 .cuadroval_7 p").html(textos_total_3[6]);
-	jQuery(".cont_sli_3 .cuadroval_8 p").html(textos_total_3[7]);
-	jQuery('.cont_sli_3 .cuadroval_9').css({'display': 'none'});		
+	$(".cont_sli_3 .cuadroval_1 p").html(textos_total_3[0]);
+	$(".cont_sli_3 .cuadroval_2 p").html(textos_total_3[1]);
+	$(".cont_sli_3 .cuadroval_3 p").html(textos_total_3[2]);
+	$(".cont_sli_3 .cuadroval_4 p").html(textos_total_3[3]);
+	$(".cont_sli_3 .cuadroval_5 p").html(textos_total_3[4]);
+	$(".cont_sli_3 .cuadroval_6 p").html(textos_total_3[5]);
+	$(".cont_sli_3 .cuadroval_7 p").html(textos_total_3[6]);
+	$(".cont_sli_3 .cuadroval_8 p").html(textos_total_3[7]);
+	$('.cont_sli_3 .cuadroval_9').css({'display': 'none'});		
 }
 
 
-jQuery( document ).ready(function($) {
+$( document ).ready(function() {
 	
 	//USO Y ACCESO----------------------- recargar
 	
@@ -333,359 +333,359 @@ jQuery( document ).ready(function($) {
 	
 	//USO Y ACCESO----------------------- bt banderas 1
 	
-	jQuery( ".cont_sli_3 .img_valor_menu_1" ).click(function() {
+	$( ".cont_sli_3 .img_valor_menu_1" ).click(function() {
 		alcargar_3();
 			
 	});
 	
-	jQuery( ".cont_sli_1 .img_valor_menu_2" ).click(function() {
+	$( ".cont_sli_1 .img_valor_menu_2" ).click(function() {
 		todosbtengris_1();
-		jQuery('.cont_sli_1 .img_valor_menu_2').css( {'background':'url(imges/foto3-tigo-une.png) -115px -9px'});
-		jQuery('.cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_barra[0] });
-		jQuery('.cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_barra[1] });
-		jQuery('.cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_barra[2] });
-		jQuery('.cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_barra[3] });
-		jQuery('.cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_barra[4] });
-		jQuery('.cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_barra[5] });
-		jQuery('.cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_barra[6] });
-		jQuery('.cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_barra[7] });
-		jQuery('.cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_barra[8] });			
+		$('.cont_sli_1 .img_valor_menu_2').css( {'background':'url(imges/foto3-tigo-une.png) -115px -9px'});
+		$('.cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_barra[0] });
+		$('.cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_barra[1] });
+		$('.cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_barra[2] });
+		$('.cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_barra[3] });
+		$('.cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_barra[4] });
+		$('.cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_barra[5] });
+		$('.cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_barra[6] });
+		$('.cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_barra[7] });
+		$('.cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_barra[8] });			
 	});
     
-	jQuery( ".cont_sli_1 .img_valor_menu_3" ).click(function() {
+	$( ".cont_sli_1 .img_valor_menu_3" ).click(function() {
 		todosbtengris_1();
-		jQuery(' .cont_sli_1 .img_valor_menu_3').css( {'background':'url(imges/foto3-tigo-une.png) -225px -9px'});
-		jQuery(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_bogot[0] });
-		jQuery(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_bogot[1] });
-		jQuery(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_bogot[2] });
-		jQuery(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_bogot[3] });
-		jQuery(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_bogot[4] });
-		jQuery(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_bogot[5] });
-		jQuery(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_bogot[6] });
-		jQuery(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_bogot[7] });
-		jQuery(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_bogot[8] });			
+		$(' .cont_sli_1 .img_valor_menu_3').css( {'background':'url(imges/foto3-tigo-une.png) -225px -9px'});
+		$(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_bogot[0] });
+		$(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_bogot[1] });
+		$(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_bogot[2] });
+		$(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_bogot[3] });
+		$(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_bogot[4] });
+		$(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_bogot[5] });
+		$(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_bogot[6] });
+		$(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_bogot[7] });
+		$(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_bogot[8] });			
 	});
     
-	jQuery( ".cont_sli_1 .img_valor_menu_4" ).click(function() {
+	$( ".cont_sli_1 .img_valor_menu_4" ).click(function() {
 		todosbtengris_1();
-		jQuery(' .cont_sli_1 .img_valor_menu_4').css( {'background':'url(imges/foto3-tigo-une.png) -335px -9px'});
-		jQuery(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_bucar[0] });
-		jQuery(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_bucar[1] });
-		jQuery(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_bucar[2] });
-		jQuery(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_bucar[3] });
-		jQuery(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_bucar[4] });
-		jQuery(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_bucar[5] });
-		jQuery(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_bucar[6] });
-		jQuery(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_bucar[7] });
-		jQuery(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_bucar[8] });			
+		$(' .cont_sli_1 .img_valor_menu_4').css( {'background':'url(imges/foto3-tigo-une.png) -335px -9px'});
+		$(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_bucar[0] });
+		$(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_bucar[1] });
+		$(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_bucar[2] });
+		$(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_bucar[3] });
+		$(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_bucar[4] });
+		$(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_bucar[5] });
+		$(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_bucar[6] });
+		$(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_bucar[7] });
+		$(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_bucar[8] });			
 	});
     
-	jQuery( ".cont_sli_1 .img_valor_menu_5" ).click(function() {
+	$( ".cont_sli_1 .img_valor_menu_5" ).click(function() {
 		todosbtengris_1();
-		jQuery(' .cont_sli_1 .img_valor_menu_5').css( {'background':'url(imges/foto3-tigo-une.png) -445px -9px'});
-		jQuery(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_calii[0] });
-		jQuery(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_calii[1] });
-		jQuery(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_calii[2] });
-		jQuery(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_calii[3] });
-		jQuery(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_calii[4] });
-		jQuery(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_calii[5] });
-		jQuery(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_calii[6] });
-		jQuery(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_calii[7] });
-		jQuery(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_calii[8] });			
+		$(' .cont_sli_1 .img_valor_menu_5').css( {'background':'url(imges/foto3-tigo-une.png) -445px -9px'});
+		$(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_calii[0] });
+		$(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_calii[1] });
+		$(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_calii[2] });
+		$(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_calii[3] });
+		$(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_calii[4] });
+		$(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_calii[5] });
+		$(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_calii[6] });
+		$(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_calii[7] });
+		$(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_calii[8] });			
 	});
     
-	jQuery( ".cont_sli_1 .img_valor_menu_6" ).click(function() {
+	$( ".cont_sli_1 .img_valor_menu_6" ).click(function() {
 		todosbtengris_1();
-		jQuery(' .cont_sli_1 .img_valor_menu_6').css( {'background':'url(imges/foto3-tigo-une.png) -555px -9px'});
-		jQuery(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_carta[0] });
-		jQuery(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_carta[1] });
-		jQuery(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_carta[2] });
-		jQuery(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_carta[3] });
-		jQuery(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_carta[4] });
-		jQuery(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_carta[5] });
-		jQuery(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_carta[6] });
-		jQuery(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_carta[7] });
-		jQuery(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_carta[8] });			
+		$(' .cont_sli_1 .img_valor_menu_6').css( {'background':'url(imges/foto3-tigo-une.png) -555px -9px'});
+		$(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_carta[0] });
+		$(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_carta[1] });
+		$(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_carta[2] });
+		$(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_carta[3] });
+		$(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_carta[4] });
+		$(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_carta[5] });
+		$(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_carta[6] });
+		$(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_carta[7] });
+		$(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_carta[8] });			
 	});
     
-	jQuery( ".cont_sli_1 .img_valor_menu_7" ).click(function() {
+	$( ".cont_sli_1 .img_valor_menu_7" ).click(function() {
 		todosbtengris_1();
-		jQuery(' .cont_sli_1 .img_valor_menu_7').css( {'background':'url(imges/foto3-tigo-une.png) -665px -9px'});
-		jQuery(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_maniz[0] });
-		jQuery(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_maniz[1] });
-		jQuery(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_maniz[2] });
-		jQuery(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_maniz[3] });
-		jQuery(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_maniz[4] });
-		jQuery(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_maniz[5] });
-		jQuery(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_maniz[6] });
-		jQuery(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_maniz[7] });
-		jQuery(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_maniz[8] });			
+		$(' .cont_sli_1 .img_valor_menu_7').css( {'background':'url(imges/foto3-tigo-une.png) -665px -9px'});
+		$(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_maniz[0] });
+		$(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_maniz[1] });
+		$(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_maniz[2] });
+		$(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_maniz[3] });
+		$(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_maniz[4] });
+		$(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_maniz[5] });
+		$(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_maniz[6] });
+		$(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_maniz[7] });
+		$(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_maniz[8] });			
 	});
     
-	jQuery( ".cont_sli_1 .img_valor_menu_8" ).click(function() {
+	$( ".cont_sli_1 .img_valor_menu_8" ).click(function() {
 		todosbtengris_1();
-		jQuery(' .cont_sli_1 .img_valor_menu_8').css( {'background':'url(imges/foto3-tigo-une.png) -775px -9px'});
-		jQuery(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_medel[0] });
-		jQuery(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_medel[1] });
-		jQuery(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_medel[2] });
-		jQuery(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_medel[3] });
-		jQuery(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_medel[4] });
-		jQuery(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_medel[5] });
-		jQuery(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_medel[6] });
-		jQuery(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_medel[7] });
-		jQuery(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_medel[8] });			
+		$(' .cont_sli_1 .img_valor_menu_8').css( {'background':'url(imges/foto3-tigo-une.png) -775px -9px'});
+		$(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_medel[0] });
+		$(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_medel[1] });
+		$(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_medel[2] });
+		$(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_medel[3] });
+		$(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_medel[4] });
+		$(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_medel[5] });
+		$(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_medel[6] });
+		$(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_medel[7] });
+		$(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_medel[8] });			
 	});
     
-	jQuery( ".cont_sli_1 .img_valor_menu_9" ).click(function() {
+	$( ".cont_sli_1 .img_valor_menu_9" ).click(function() {
 		todosbtengris_1();
-		jQuery(' .cont_sli_1 .img_valor_menu_9').css( {'background':'url(imges/foto3-tigo-une.png) -885px -9px'});
-		jQuery(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_perei[0] });
-		jQuery(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_perei[1] });
-		jQuery(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_perei[2] });
-		jQuery(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_perei[3] });
-		jQuery(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_perei[4] });
-		jQuery(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_perei[5] });
-		jQuery(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_perei[6] });
-		jQuery(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_perei[7] });
-		jQuery(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_perei[8] });			
+		$(' .cont_sli_1 .img_valor_menu_9').css( {'background':'url(imges/foto3-tigo-une.png) -885px -9px'});
+		$(' .cont_sli_1 .valor_valor_1 h2 span').animateNumber({ number: valores_perei[0] });
+		$(' .cont_sli_1 .valor_valor_2 h2 span').animateNumber({ number: valores_perei[1] });
+		$(' .cont_sli_1 .valor_valor_3 h2 span').animateNumber({ number: valores_perei[2] });
+		$(' .cont_sli_1 .valor_valor_4 h2 span').animateNumber({ number: valores_perei[3] });
+		$(' .cont_sli_1 .valor_valor_5 h2 span').animateNumber({ number: valores_perei[4] });
+		$(' .cont_sli_1 .valor_valor_6 h2 span').animateNumber({ number: valores_perei[5] });
+		$(' .cont_sli_1 .valor_valor_7 h2 span').animateNumber({ number: valores_perei[6] });
+		$(' .cont_sli_1 .valor_valor_8 h2 span').animateNumber({ number: valores_perei[7] });
+		$(' .cont_sli_1 .valor_valor_9 h2 span').animateNumber({ number: valores_perei[8] });			
 	});
 	
 	//USO Y ACCESO----------------------- bt banderas 2
 	
-	jQuery( ".cont_sli_2 .img_valor_menu_1" ).click(function() {
+	$( ".cont_sli_2 .img_valor_menu_1" ).click(function() {
 		alcargar_2();
 			
 	});
 	
-	jQuery( ".cont_sli_2 .img_valor_menu_2" ).click(function() {
+	$( ".cont_sli_2 .img_valor_menu_2" ).click(function() {
 		todosbtengris_2();
-		jQuery('.cont_sli_2 .img_valor_menu_2').css( {'background':'url(imges/foto3-tigo-une.png) -115px -9px'});
-		jQuery('.cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_barra_2[0] });
-		jQuery('.cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_barra_2[1] });
-		jQuery('.cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_barra_2[2] });
-		jQuery('.cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_barra_2[3] });
-		jQuery('.cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_barra_2[4] });
-		jQuery('.cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_barra_2[5] });
-		jQuery('.cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_barra_2[6] });
-		jQuery('.cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_barra_2[7] });
-		jQuery('.cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_barra_2[8] });			
+		$('.cont_sli_2 .img_valor_menu_2').css( {'background':'url(imges/foto3-tigo-une.png) -115px -9px'});
+		$('.cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_barra_2[0] });
+		$('.cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_barra_2[1] });
+		$('.cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_barra_2[2] });
+		$('.cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_barra_2[3] });
+		$('.cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_barra_2[4] });
+		$('.cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_barra_2[5] });
+		$('.cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_barra_2[6] });
+		$('.cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_barra_2[7] });
+		$('.cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_barra_2[8] });			
 	});
     
-	jQuery( ".cont_sli_2 .img_valor_menu_3" ).click(function() {
+	$( ".cont_sli_2 .img_valor_menu_3" ).click(function() {
 		todosbtengris_2();
-		jQuery(' .cont_sli_2 .img_valor_menu_3').css( {'background':'url(imges/foto3-tigo-une.png) -225px -9px'});
-		jQuery(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_bogot_2[0] });
-		jQuery(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_bogot_2[1] });
-		jQuery(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_bogot_2[2] });
-		jQuery(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_bogot_2[3] });
-		jQuery(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_bogot_2[4] });
-		jQuery(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_bogot_2[5] });
-		jQuery(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_bogot_2[6] });
-		jQuery(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_bogot_2[7] });
-		jQuery(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_bogot_2[8] });			
+		$(' .cont_sli_2 .img_valor_menu_3').css( {'background':'url(imges/foto3-tigo-une.png) -225px -9px'});
+		$(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_bogot_2[0] });
+		$(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_bogot_2[1] });
+		$(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_bogot_2[2] });
+		$(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_bogot_2[3] });
+		$(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_bogot_2[4] });
+		$(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_bogot_2[5] });
+		$(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_bogot_2[6] });
+		$(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_bogot_2[7] });
+		$(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_bogot_2[8] });			
 	});
 	
-	jQuery( ".cont_sli_2 .img_valor_menu_4" ).click(function() {
+	$( ".cont_sli_2 .img_valor_menu_4" ).click(function() {
 		todosbtengris_2();
-		jQuery(' .cont_sli_2 .img_valor_menu_4').css( {'background':'url(imges/foto3-tigo-une.png) -335px -9px'});
-		jQuery(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_bucar_2[0] });
-		jQuery(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_bucar_2[1] });
-		jQuery(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_bucar_2[2] });
-		jQuery(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_bucar_2[3] });
-		jQuery(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_bucar_2[4] });
-		jQuery(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_bucar_2[5] });
-		jQuery(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_bucar_2[6] });
-		jQuery(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_bucar_2[7] });
-		jQuery(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_bucar_2[8] });			
+		$(' .cont_sli_2 .img_valor_menu_4').css( {'background':'url(imges/foto3-tigo-une.png) -335px -9px'});
+		$(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_bucar_2[0] });
+		$(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_bucar_2[1] });
+		$(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_bucar_2[2] });
+		$(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_bucar_2[3] });
+		$(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_bucar_2[4] });
+		$(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_bucar_2[5] });
+		$(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_bucar_2[6] });
+		$(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_bucar_2[7] });
+		$(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_bucar_2[8] });			
 	});
     
-	jQuery( ".cont_sli_2 .img_valor_menu_5" ).click(function() {
+	$( ".cont_sli_2 .img_valor_menu_5" ).click(function() {
 		todosbtengris_2();
-		jQuery(' .cont_sli_2 .img_valor_menu_5').css( {'background':'url(imges/foto3-tigo-une.png) -445px -9px'});
-		jQuery(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_calii_2[0] });
-		jQuery(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_calii_2[1] });
-		jQuery(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_calii_2[2] });
-		jQuery(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_calii_2[3] });
-		jQuery(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_calii_2[4] });
-		jQuery(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_calii_2[5] });
-		jQuery(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_calii_2[6] });
-		jQuery(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_calii_2[7] });
-		jQuery(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_calii_2[8] });			
+		$(' .cont_sli_2 .img_valor_menu_5').css( {'background':'url(imges/foto3-tigo-une.png) -445px -9px'});
+		$(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_calii_2[0] });
+		$(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_calii_2[1] });
+		$(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_calii_2[2] });
+		$(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_calii_2[3] });
+		$(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_calii_2[4] });
+		$(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_calii_2[5] });
+		$(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_calii_2[6] });
+		$(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_calii_2[7] });
+		$(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_calii_2[8] });			
 	});
     
-	jQuery( ".cont_sli_2 .img_valor_menu_6" ).click(function() {
+	$( ".cont_sli_2 .img_valor_menu_6" ).click(function() {
 		todosbtengris_2();
-		jQuery(' .cont_sli_2 .img_valor_menu_6').css( {'background':'url(imges/foto3-tigo-une.png) -555px -9px'});
-		jQuery(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_carta_2[0] });
-		jQuery(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_carta_2[1] });
-		jQuery(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_carta_2[2] });
-		jQuery(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_carta_2[3] });
-		jQuery(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_carta_2[4] });
-		jQuery(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_carta_2[5] });
-		jQuery(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_carta_2[6] });
-		jQuery(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_carta_2[7] });
-		jQuery(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_carta_2[8] });			
+		$(' .cont_sli_2 .img_valor_menu_6').css( {'background':'url(imges/foto3-tigo-une.png) -555px -9px'});
+		$(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_carta_2[0] });
+		$(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_carta_2[1] });
+		$(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_carta_2[2] });
+		$(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_carta_2[3] });
+		$(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_carta_2[4] });
+		$(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_carta_2[5] });
+		$(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_carta_2[6] });
+		$(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_carta_2[7] });
+		$(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_carta_2[8] });			
 	});
     
-	jQuery( ".cont_sli_2 .img_valor_menu_7" ).click(function() {
+	$( ".cont_sli_2 .img_valor_menu_7" ).click(function() {
 		todosbtengris_2();
-		jQuery(' .cont_sli_2 .img_valor_menu_7').css( {'background':'url(imges/foto3-tigo-une.png) -665px -9px'});
-		jQuery(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_maniz_2[0] });
-		jQuery(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_maniz_2[1] });
-		jQuery(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_maniz_2[2] });
-		jQuery(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_maniz_2[3] });
-		jQuery(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_maniz_2[4] });
-		jQuery(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_maniz_2[5] });
-		jQuery(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_maniz_2[6] });
-		jQuery(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_maniz_2[7] });
-		jQuery(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_maniz_2[8] });			
+		$(' .cont_sli_2 .img_valor_menu_7').css( {'background':'url(imges/foto3-tigo-une.png) -665px -9px'});
+		$(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_maniz_2[0] });
+		$(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_maniz_2[1] });
+		$(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_maniz_2[2] });
+		$(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_maniz_2[3] });
+		$(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_maniz_2[4] });
+		$(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_maniz_2[5] });
+		$(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_maniz_2[6] });
+		$(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_maniz_2[7] });
+		$(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_maniz_2[8] });			
 	});
     
-	jQuery( ".cont_sli_2 .img_valor_menu_8" ).click(function() {
+	$( ".cont_sli_2 .img_valor_menu_8" ).click(function() {
 		todosbtengris_2();
-		jQuery(' .cont_sli_2 .img_valor_menu_8').css( {'background':'url(imges/foto3-tigo-une.png) -775px -9px'});
-		jQuery(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_medel_2[0] });
-		jQuery(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_medel_2[1] });
-		jQuery(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_medel_2[2] });
-		jQuery(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_medel_2[3] });
-		jQuery(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_medel_2[4] });
-		jQuery(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_medel_2[5] });
-		jQuery(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_medel_2[6] });
-		jQuery(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_medel_2[7] });
-		jQuery(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_medel_2[8] });			
+		$(' .cont_sli_2 .img_valor_menu_8').css( {'background':'url(imges/foto3-tigo-une.png) -775px -9px'});
+		$(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_medel_2[0] });
+		$(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_medel_2[1] });
+		$(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_medel_2[2] });
+		$(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_medel_2[3] });
+		$(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_medel_2[4] });
+		$(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_medel_2[5] });
+		$(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_medel_2[6] });
+		$(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_medel_2[7] });
+		$(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_medel_2[8] });			
 	});
     
-	jQuery( ".cont_sli_2 .img_valor_menu_9" ).click(function() {
+	$( ".cont_sli_2 .img_valor_menu_9" ).click(function() {
 		todosbtengris_2();
-		jQuery(' .cont_sli_2 .img_valor_menu_9').css( {'background':'url(imges/foto3-tigo-une.png) -885px -9px'});
-		jQuery(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_perei_2[0] });
-		jQuery(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_perei_2[1] });
-		jQuery(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_perei_2[2] });
-		jQuery(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_perei_2[3] });
-		jQuery(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_perei_2[4] });
-		jQuery(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_perei_2[5] });
-		jQuery(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_perei_2[6] });
-		jQuery(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_perei_2[7] });
-		jQuery(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_perei_2[8] });			
+		$(' .cont_sli_2 .img_valor_menu_9').css( {'background':'url(imges/foto3-tigo-une.png) -885px -9px'});
+		$(' .cont_sli_2 .valor_valor_1 h2 span').animateNumber({ number: valores_perei_2[0] });
+		$(' .cont_sli_2 .valor_valor_2 h2 span').animateNumber({ number: valores_perei_2[1] });
+		$(' .cont_sli_2 .valor_valor_3 h2 span').animateNumber({ number: valores_perei_2[2] });
+		$(' .cont_sli_2 .valor_valor_4 h2 span').animateNumber({ number: valores_perei_2[3] });
+		$(' .cont_sli_2 .valor_valor_5 h2 span').animateNumber({ number: valores_perei_2[4] });
+		$(' .cont_sli_2 .valor_valor_6 h2 span').animateNumber({ number: valores_perei_2[5] });
+		$(' .cont_sli_2 .valor_valor_7 h2 span').animateNumber({ number: valores_perei_2[6] });
+		$(' .cont_sli_2 .valor_valor_8 h2 span').animateNumber({ number: valores_perei_2[7] });
+		$(' .cont_sli_2 .valor_valor_9 h2 span').animateNumber({ number: valores_perei_2[8] });			
 	});
 	
 //USO Y ACCESO----------------------- bt banderas 3
 	
-	jQuery( ".cont_sli_3 .img_valor_menu_1" ).click(function() {
+	$( ".cont_sli_3 .img_valor_menu_1" ).click(function() {
 		alcargar_3();
 			
 	});
 	
-	jQuery( ".cont_sli_3 .img_valor_menu_2" ).click(function() {
+	$( ".cont_sli_3 .img_valor_menu_2" ).click(function() {
 		todosbtengris_3();
-		jQuery('.cont_sli_3 .img_valor_menu_2').css( {'background':'url(imges/foto3-tigo-une.png) -115px -9px'});
-		jQuery('.cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_barra_3[0] });
-		jQuery('.cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_barra_3[1] });
-		jQuery('.cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_barra_3[2] });
-		jQuery('.cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_barra_3[3] });
-		jQuery('.cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_barra_3[4] });
-		jQuery('.cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_barra_3[5] });
-		jQuery('.cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_barra_3[6] });
-		jQuery('.cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_barra_3[7] });
-		jQuery('.cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_barra_3[8] });			
+		$('.cont_sli_3 .img_valor_menu_2').css( {'background':'url(imges/foto3-tigo-une.png) -115px -9px'});
+		$('.cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_barra_3[0] });
+		$('.cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_barra_3[1] });
+		$('.cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_barra_3[2] });
+		$('.cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_barra_3[3] });
+		$('.cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_barra_3[4] });
+		$('.cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_barra_3[5] });
+		$('.cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_barra_3[6] });
+		$('.cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_barra_3[7] });
+		$('.cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_barra_3[8] });			
 	});
     
-	jQuery( ".cont_sli_3 .img_valor_menu_3" ).click(function() {
+	$( ".cont_sli_3 .img_valor_menu_3" ).click(function() {
 		todosbtengris_3();
-		jQuery(' .cont_sli_3 .img_valor_menu_3').css( {'background':'url(imges/foto3-tigo-une.png) -225px -9px'});
-		jQuery(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_bogot_3[0] });
-		jQuery(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_bogot_3[1] });
-		jQuery(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_bogot_3[2] });
-		jQuery(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_bogot_3[3] });
-		jQuery(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_bogot_3[4] });
-		jQuery(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_bogot_3[5] });
-		jQuery(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_bogot_3[6] });
-		jQuery(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_bogot_3[7] });
-		jQuery(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_bogot_3[8] });			
+		$(' .cont_sli_3 .img_valor_menu_3').css( {'background':'url(imges/foto3-tigo-une.png) -225px -9px'});
+		$(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_bogot_3[0] });
+		$(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_bogot_3[1] });
+		$(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_bogot_3[2] });
+		$(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_bogot_3[3] });
+		$(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_bogot_3[4] });
+		$(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_bogot_3[5] });
+		$(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_bogot_3[6] });
+		$(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_bogot_3[7] });
+		$(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_bogot_3[8] });			
 	});
     
-	jQuery( ".cont_sli_3 .img_valor_menu_4" ).click(function() {
+	$( ".cont_sli_3 .img_valor_menu_4" ).click(function() {
 		todosbtengris_3();
-		jQuery(' .cont_sli_3 .img_valor_menu_4').css( {'background':'url(imges/foto3-tigo-une.png) -335px -9px'});
-		jQuery(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_bucar_3[0] });
-		jQuery(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_bucar_3[1] });
-		jQuery(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_bucar_3[2] });
-		jQuery(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_bucar_3[3] });
-		jQuery(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_bucar_3[4] });
-		jQuery(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_bucar_3[5] });
-		jQuery(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_bucar_3[6] });
-		jQuery(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_bucar_3[7] });
-		jQuery(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_bucar_3[8] });			
+		$(' .cont_sli_3 .img_valor_menu_4').css( {'background':'url(imges/foto3-tigo-une.png) -335px -9px'});
+		$(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_bucar_3[0] });
+		$(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_bucar_3[1] });
+		$(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_bucar_3[2] });
+		$(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_bucar_3[3] });
+		$(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_bucar_3[4] });
+		$(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_bucar_3[5] });
+		$(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_bucar_3[6] });
+		$(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_bucar_3[7] });
+		$(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_bucar_3[8] });			
 	});
     
-	jQuery( ".cont_sli_3 .img_valor_menu_5" ).click(function() {
+	$( ".cont_sli_3 .img_valor_menu_5" ).click(function() {
 		todosbtengris_3();
-		jQuery(' .cont_sli_3 .img_valor_menu_5').css( {'background':'url(imges/foto3-tigo-une.png) -445px -9px'});
-		jQuery(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_calii_3[0] });
-		jQuery(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_calii_3[1] });
-		jQuery(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_calii_3[2] });
-		jQuery(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_calii_3[3] });
-		jQuery(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_calii_3[4] });
-		jQuery(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_calii_3[5] });
-		jQuery(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_calii_3[6] });
-		jQuery(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_calii_3[7] });
-		jQuery(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_calii_3[8] });			
+		$(' .cont_sli_3 .img_valor_menu_5').css( {'background':'url(imges/foto3-tigo-une.png) -445px -9px'});
+		$(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_calii_3[0] });
+		$(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_calii_3[1] });
+		$(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_calii_3[2] });
+		$(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_calii_3[3] });
+		$(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_calii_3[4] });
+		$(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_calii_3[5] });
+		$(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_calii_3[6] });
+		$(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_calii_3[7] });
+		$(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_calii_3[8] });			
 	});
     
-	jQuery( ".cont_sli_3 .img_valor_menu_6" ).click(function() {
+	$( ".cont_sli_3 .img_valor_menu_6" ).click(function() {
 		todosbtengris_3();
-		jQuery(' .cont_sli_3 .img_valor_menu_6').css( {'background':'url(imges/foto3-tigo-une.png) -555px -9px'});
-		jQuery(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_carta_3[0] });
-		jQuery(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_carta_3[1] });
-		jQuery(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_carta_3[2] });
-		jQuery(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_carta_3[3] });
-		jQuery(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_carta_3[4] });
-		jQuery(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_carta_3[5] });
-		jQuery(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_carta_3[6] });
-		jQuery(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_carta_3[7] });
-		jQuery(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_carta_3[8] });			
+		$(' .cont_sli_3 .img_valor_menu_6').css( {'background':'url(imges/foto3-tigo-une.png) -555px -9px'});
+		$(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_carta_3[0] });
+		$(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_carta_3[1] });
+		$(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_carta_3[2] });
+		$(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_carta_3[3] });
+		$(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_carta_3[4] });
+		$(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_carta_3[5] });
+		$(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_carta_3[6] });
+		$(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_carta_3[7] });
+		$(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_carta_3[8] });			
 	});
     
-	jQuery( ".cont_sli_3 .img_valor_menu_7" ).click(function() {
+	$( ".cont_sli_3 .img_valor_menu_7" ).click(function() {
 		todosbtengris_3();
-		jQuery(' .cont_sli_3 .img_valor_menu_7').css( {'background':'url(imges/foto3-tigo-une.png) -665px -9px'});
-		jQuery(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_maniz_3[0] });
-		jQuery(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_maniz_3[1] });
-		jQuery(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_maniz_3[2] });
-		jQuery(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_maniz_3[3] });
-		jQuery(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_maniz_3[4] });
-		jQuery(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_maniz_3[5] });
-		jQuery(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_maniz_3[6] });
-		jQuery(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_maniz_3[7] });
-		jQuery(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_maniz_3[8] });			
+		$(' .cont_sli_3 .img_valor_menu_7').css( {'background':'url(imges/foto3-tigo-une.png) -665px -9px'});
+		$(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_maniz_3[0] });
+		$(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_maniz_3[1] });
+		$(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_maniz_3[2] });
+		$(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_maniz_3[3] });
+		$(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_maniz_3[4] });
+		$(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_maniz_3[5] });
+		$(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_maniz_3[6] });
+		$(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_maniz_3[7] });
+		$(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_maniz_3[8] });			
 	});
     
-	jQuery( ".cont_sli_3 .img_valor_menu_8" ).click(function() {
+	$( ".cont_sli_3 .img_valor_menu_8" ).click(function() {
 		todosbtengris_3();
-		jQuery(' .cont_sli_3 .img_valor_menu_8').css( {'background':'url(imges/foto3-tigo-une.png) -775px -9px'});
-		jQuery(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_medel_3[0] });
-		jQuery(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_medel_3[1] });
-		jQuery(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_medel_3[2] });
-		jQuery(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_medel_3[3] });
-		jQuery(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_medel_3[4] });
-		jQuery(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_medel_3[5] });
-		jQuery(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_medel_3[6] });
-		jQuery(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_medel_3[7] });
-		jQuery(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_medel_3[8] });			
+		$(' .cont_sli_3 .img_valor_menu_8').css( {'background':'url(imges/foto3-tigo-une.png) -775px -9px'});
+		$(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_medel_3[0] });
+		$(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_medel_3[1] });
+		$(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_medel_3[2] });
+		$(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_medel_3[3] });
+		$(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_medel_3[4] });
+		$(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_medel_3[5] });
+		$(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_medel_3[6] });
+		$(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_medel_3[7] });
+		$(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_medel_3[8] });			
 	});
     
-	jQuery( ".cont_sli_3 .img_valor_menu_9" ).click(function() {
+	$( ".cont_sli_3 .img_valor_menu_9" ).click(function() {
 		todosbtengris_3();
-		jQuery(' .cont_sli_3 .img_valor_menu_9').css( {'background':'url(imges/foto3-tigo-une.png) -885px -9px'});
-		jQuery(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_perei_3[0] });
-		jQuery(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_perei_3[1] });
-		jQuery(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_perei_3[2] });
-		jQuery(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_perei_3[3] });
-		jQuery(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_perei_3[4] });
-		jQuery(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_perei_3[5] });
-		jQuery(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_perei_3[6] });
-		jQuery(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_perei_3[7] });
-		jQuery(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_perei_3[8] });			
+		$(' .cont_sli_3 .img_valor_menu_9').css( {'background':'url(imges/foto3-tigo-une.png) -885px -9px'});
+		$(' .cont_sli_3 .valor_valor_1 h2 span').animateNumber({ number: valores_perei_3[0] });
+		$(' .cont_sli_3 .valor_valor_2 h2 span').animateNumber({ number: valores_perei_3[1] });
+		$(' .cont_sli_3 .valor_valor_3 h2 span').animateNumber({ number: valores_perei_3[2] });
+		$(' .cont_sli_3 .valor_valor_4 h2 span').animateNumber({ number: valores_perei_3[3] });
+		$(' .cont_sli_3 .valor_valor_5 h2 span').animateNumber({ number: valores_perei_3[4] });
+		$(' .cont_sli_3 .valor_valor_6 h2 span').animateNumber({ number: valores_perei_3[5] });
+		$(' .cont_sli_3 .valor_valor_7 h2 span').animateNumber({ number: valores_perei_3[6] });
+		$(' .cont_sli_3 .valor_valor_8 h2 span').animateNumber({ number: valores_perei_3[7] });
+		$(' .cont_sli_3 .valor_valor_9 h2 span').animateNumber({ number: valores_perei_3[8] });			
 	});
     
 });

@@ -65,12 +65,13 @@
 }
 
 #offcanvas-menu{
-    background: url(../images/bg_offcanvas.png) no-repeat;
+    background: url(../images/bg_offcanvas.png) no-repeat center;
     background-size: cover;
     position: relative;
     top: -60px;
     z-index: 200;
-
+    width: 100vw;
+    overflow-y: scroll;
     .row:first-child{
         margin-bottom: 35px;
         margin-top: 160px;
@@ -111,7 +112,9 @@
     #cap-menu{
         .glitch{
             &:hover{
-                -webkit-animation: glitch 1s infinite  alternate;
+                animation: glitch 1s infinite  alternate;
+            }
+            @include media-breakpoint-down(md){
                 animation: glitch 1s infinite  alternate;
             }
         }

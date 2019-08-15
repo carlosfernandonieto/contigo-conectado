@@ -15,8 +15,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="wrapper pt-0" id="single-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>-fuid px-0" id="content" tabindex="-1">
-z
-		<div class="row">
+		<div class="single">
 
 			<!-- Do the left sidebar check -->
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>

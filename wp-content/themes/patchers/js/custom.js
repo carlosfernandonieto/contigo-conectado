@@ -48,6 +48,14 @@ jQuery(document).ready(function($) {
         });
     });
 
+    // Buttons
+
+    // wire up Add Item button click event
+    $(".filter").click(function(e)
+    {
+      e.preventDefault(); // cancel default behavior
+    });
+
 });
 
 // Parallax

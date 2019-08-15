@@ -1,72 +1,105 @@
 //USO Y ACCESO----------------------- valores y textos
 
-var valores_total = ['55','28','75','53','11','33','43','19','43'];
-var valores_barra = ['69','50','58','47','41','92','28','54','69'];
-var valores_bogot = ['61','25','75','48','18','30','50','25','46'];
-var valores_bucar = ['65','24','72','63', '2','37','43','14','35'];
-var valores_calii = ['61','28','72','63', '2','17','51','10','45'];
-var valores_carta = ['37','18','69','40', '8','27','44', '6','27'];
-var valores_maniz = ['50','21','92','46', '4','38','46','17','42'];
-var valores_medel = ['50','27','79','52', '8','22','43','17','40'];
-var valores_perei = ['63','33','80','64', '8','16','48','13','45'];
-var valores_hombr = ['56','27','74','54','13','32','43','21','59'];
-var valores_mujer = ['55','30','75','52', '9','35','44','18','26'];
-var valores_edad1 = ['61','22','62','53', '8','32','34','18','48'];
-var valores_edad2 = ['57','22','74','50', '8','37','46','17','39'];
-var valores_edad3 = ['57','35','82','53','12','32','40','21','41'];
-var valores_edad4 = ['47','36','82','55','15','33','53','22','44'];
+var valores_total = ['56','84','70','45','60'];
+var valores_barra = ['46','76','76','54','54'];
+var valores_bogot = ['47','65','70','35','57'];
+var valores_bucar = ['71','74','75','44','76'];
+var valores_calii = ['61','77','55','51','72'];
+var valores_carta = ['60','63','70','53','59'];
+var valores_maniz = ['50','71','58','42','67'];
+var valores_medel = ['57','77','71','42','54'];
+var valores_perei = ['49','74','76','50','68'];
+var valores_hombr = ['54','77','64','37','58'];
+var valores_mujer = ['58','71','77','54','63'];
+var valores_edad1 = ['62','67','72','52','62'];
+var valores_edad2 = ['54','83','72','47','61'];
+var valores_edad3 = ['48','63','68','37','58'];
+var valores_edad4 = ['52','83','69','45','60'];
 
 
-var valores_total_2 = ['46','36','18'];
-var valores_barra_2 = ['42','37','21'];
-var valores_bogot_2 = ['48','48', '4'];
-var valores_bucar_2 = ['45','36','18'];
-var valores_calii_2 = ['56','36', '8'];
-var valores_carta_2 = ['43','43','14'];
-var valores_maniz_2 = ['50','25','25'];
-var valores_medel_2 = ['47','31','22'];
-var valores_perei_2 = ['37','38','26'];
-var valores_hombr_2 = ['47','36','17'];
-var valores_mujer_2 = ['46','36','18'];
-var valores_edad1_2 = ['26','41','33'];
-var valores_edad2_2 = ['28','50','22'];
-var valores_edad3_2 = ['53','38','9'];
-var valores_edad4_2 = ['79','15','7'];
+var valores_total_2 = ['65','77','67','42','64'];
+var valores_barra_2 = ['52','72','47','26','34'];
+var valores_bogot_2 = ['63','69','53','49','71'];
+var valores_bucar_2 = ['72','82','70','36','72'];
+var valores_calii_2 = ['70','82','77','41','71'];
+var valores_carta_2 = ['70','85','64','56','66'];
+var valores_maniz_2 = ['67','71','71','38','63'];
+var valores_medel_2 = ['62','75','69','40','64'];
+var valores_perei_2 = ['81','86','88','69','83'];
+var valores_hombr_2 = ['63','71','61','39','59'];
+var valores_mujer_2 = ['67','82','72','45','70'];
+var valores_edad1_2 = ['81','84','64','42','65'];
+var valores_edad2_2 = ['70','79','73','39','70'];
+var valores_edad3_2 = ['63','76','71','47','64'];
+var valores_edad4_2 = ['47','68','59','41','57'];
 
 
-var valores_total_3 = ['75','85','42','43','25','69','82','46'];
-var valores_barra_3 = ['87','49','37', '6','70','88','39', '0'];
-var valores_bogot_3 = ['84','94','44','33','14','67','85','37'];
-var valores_bucar_3 = ['63','86','51','55', '6','76','88','65'];
-var valores_calii_3 = ['72','92','27','51','10','66','92','58'];
-var valores_carta_3 = ['54','83','16','47', '4','57','88','36'];
-var valores_maniz_3 = ['50','83','67','75', '8','63','96','54'];
-var valores_medel_3 = ['83','90','47','45','33','58','83','41'];
-var valores_perei_3 = ['64','81','48','56','17','68','88','53'];
-var valores_hombr_3 = ['70','86','43','49','25','71','80','50'];
-var valores_mujer_3 = ['80','84','41','38','24','67','83','42'];
-var valores_edad1_3 = ['62','78','25','41','24','50','76','22'];
-var valores_edad2_3 = ['68','81','37','47','26','60','82','39'];
-var valores_edad3_3 = ['79','89','48','44','23','78','84','64'];
-var valores_edad4_3 = ['90','90','60','42','27','88','84','59'];
+var valores_total_3 = ['85','94','82','83','27','75'];
+var valores_barra_3 = ['81','94','84','79','34','59'];
+var valores_bogot_3 = ['83','92','88','77','21','71'];
+var valores_bucar_3 = ['84','96','88','84','33','85'];
+var valores_calii_3 = ['86','94','90','87','33','83'];
+var valores_carta_3 = ['88','96','86','77','39','74'];
+var valores_maniz_3 = ['79','96','88','79','25','79'];
+var valores_medel_3 = ['85','94','74','85','23','76'];
+var valores_perei_3 = ['88','89','80','88', '6','71'];
+var valores_hombr_3 = ['86','93','86','85','28','78'];
+var valores_mujer_3 = ['83','95','79','80','25','72'];
+var valores_edad1_3 = ['61','89','74','53', '9','48'];
+var valores_edad2_3 = ['84','93','80','84','17','72'];
+var valores_edad3_3 = ['96','95','84','94','41','88'];
+var valores_edad4_3 = ['98','98','92','99','40','90'];
 
 
-var valores_total_4 = ['3','31'];
-var valores_barra_4 = ['2','58'];
-var valores_bogot_4 = ['3','26'];
-var valores_bucar_4 = ['3','9'];
-var valores_calii_4 = ['4','3'];
-var valores_carta_4 = ['3','22'];
-var valores_maniz_4 = ['3','16'];
-var valores_medel_4 = ['3','42'];
-var valores_perei_4 = ['3','13'];
-var valores_hombr_4 = ['3','33'];
-var valores_mujer_4 = ['3','27'];
-var valores_edad1_4 = ['1','46'];
-var valores_edad2_4 = ['2','34'];
-var valores_edad3_4 = ['4','19'];
-var valores_edad4_4 = ['5','5'];
+var valores_total_4 = ['65','43','43','40','35'];
+var valores_barra_4 = ['77','38','42','38','38'];
+var valores_bogot_4 = ['63','37','48','29','38'];
+var valores_bucar_4 = ['57','38','44','51','28'];
+var valores_calii_4 = ['68','39','31','31','31'];
+var valores_carta_4 = ['46','34','43','43','38'];
+var valores_maniz_4 = ['71','33','38','50','38'];
+var valores_medel_4 = ['68','49','42','41','32'];
+var valores_perei_4 = ['62','51','52','45','51'];
+var valores_hombr_4 = ['61','42','54','38','44'];
+var valores_mujer_4 = ['70','43','50','43','58'];
+var valores_edad1_4 = ['50','37','33','30','33'];
+var valores_edad2_4 = ['54','42','83','38','50'];
+var valores_edad3_4 = ['76','44','25','48','88'];
+var valores_edad4_4 = ['81','48','67','45','33'];
 
+
+var valores_total_5 = ['63','63','70','73','57','43','28','51'];
+var valores_barra_5 = ['66','51','70','68','65','41','30','41'];
+var valores_bogot_5 = ['67','65','65','74','51','35','45','57'];
+var valores_bucar_5 = ['66','73','65','77','63','63','16','53'];
+var valores_calii_5 = ['66','55','66','68','49','27','25','60'];
+var valores_carta_5 = ['67','49','55','73','58','61','46','54'];
+var valores_maniz_5 = ['33','63','58','50','50','50','17','46'];
+var valores_medel_5 = ['61','69','78','76','57','38','23','50'];
+var valores_perei_5 = ['73','57','69','80','60','54','35','51'];
+var valores_hombr_5 = ['61','63','69','73','54','47','29','50'];
+var valores_mujer_5 = ['65','63','70','73','60','40','27','53'];
+var valores_edad1_5 = ['60','65','73','76','57','36','24','46'];
+var valores_edad2_5 = ['56','55','66','67','57','38','31','55'];
+var valores_edad3_5 = ['70','69','72','74','59','51','31','55'];
+var valores_edad4_5 = ['66','63','68','75','55','48','25','49'];
+
+
+var valores_total_6 = [ '9', '9', '6','39'];
+var valores_barra_6 = ['10','11','14','42'];
+var valores_bogot_6 = ['21', '6', '4','46'];
+var valores_bucar_6 = [ '6','21', '4','49'];
+var valores_calii_6 = [ '8', '8', '2','21'];
+var valores_carta_6 = [ '7', '4', '2','16'];
+var valores_maniz_6 = [ '0', '0', '0','25'];
+var valores_medel_6 = [ '7', '7', '8','46'];
+var valores_perei_6 = ['13','16', '4','40'];
+var valores_hombr_6 = [ '8', '8', '5','40'];
+var valores_mujer_6 = [ '9', '9', '7','38'];
+var valores_edad1_6 = [ '8', '8', '7','29'];
+var valores_edad2_6 = [ '9', '12','7','37'];
+var valores_edad3_6 = ['11', '12','7','41'];
+var valores_edad4_6 = [ '7', '3', '4','50'];
 
 
 jQuery(document).ready(function(){
@@ -85,21 +118,21 @@ function openCity1(evt, cityName1) {
     }
     document.getElementById(cityName1).style.display = "block";
 	
-	for(var i = 0; i < 15 ;i++)
+	for(var i = 0; i < 9 ;i++)
 	{
-		$('#nacional1		.valor_valor_'+(i+1)).animateNumber({ number: valores_total[i] });
-		$('#barranquilla1 	.valor_valor_'+(i+1)).animateNumber({ number: valores_barra[i] });
-		$('#bogota1 		.valor_valor_'+(i+1)).animateNumber({ number: valores_bogot[i] });	
-		$('#bucaramanga1 	.valor_valor_'+(i+1)).animateNumber({ number: valores_bucar[i] });
-		$('#cali1 			.valor_valor_'+(i+1)).animateNumber({ number: valores_calii[i] });
-		$('#cartagena1 		.valor_valor_'+(i+1)).animateNumber({ number: valores_carta[i] });
-		$('#manizales1 		.valor_valor_'+(i+1)).animateNumber({ number: valores_maniz[i] });
-		$('#medellin1 		.valor_valor_'+(i+1)).animateNumber({ number: valores_medel[i] });
-		$('#pereira1 		.valor_valor_'+(i+1)).animateNumber({ number: valores_perei[i] });
-		
-	}	
+		$('#nacional1 .valor_valor_'+(i+1)).animateNumber({ number: valores_total[i] });
+		$('#barranquilla1 .valor_valor_'+(i+1)).animateNumber({ number: valores_barra[i] });
+		$('#bogota1 .valor_valor_'+(i+1)).animateNumber({ number: valores_bogot[i] });	
+		$('#bucaramanga1 .valor_valor_'+(i+1)).animateNumber({ number: valores_bucar[i] });
+		$('#cali1 .valor_valor_'+(i+1)).animateNumber({ number: valores_calii[i] });
+		$('#cartagena1 .valor_valor_'+(i+1)).animateNumber({ number: valores_carta[i] });
+		$('#manizales1 .valor_valor_'+(i+1)).animateNumber({ number: valores_maniz[i] });
+		$('#medellin1 .valor_valor_'+(i+1)).animateNumber({ number: valores_medel[i] });
+		$('#pereira1 .valor_valor_'+(i+1)).animateNumber({ number: valores_perei[i] });
+	}
+	
     evt.currentTarget.className += " active";
-
+	
 }
 
 jQuery(document).ready(function(){
@@ -118,7 +151,7 @@ function openCity2(evt2, cityName2) {
     }
     document.getElementById(cityName2).style.display = "block";
 	
-	for(var i = 0; i < 15 ;i++)
+	for(var i = 0; i < 9 ;i++)
 	{
 		$('#nacional2 		.valor_valor_'+(i+1)).animateNumber({ number: valores_total_2[i] });
 		$('#barranquilla2 	.valor_valor_'+(i+1)).animateNumber({ number: valores_barra_2[i] });
@@ -129,7 +162,6 @@ function openCity2(evt2, cityName2) {
 		$('#manizales2 		.valor_valor_'+(i+1)).animateNumber({ number: valores_maniz_2[i] });
 		$('#medellin2 		.valor_valor_'+(i+1)).animateNumber({ number: valores_medel_2[i] });
 		$('#pereira2 		.valor_valor_'+(i+1)).animateNumber({ number: valores_perei_2[i] });
-		
 	}	
     evt2.currentTarget.className += " active";
 }
@@ -150,7 +182,7 @@ function openCity3(evt3, cityName3) {
     }
     document.getElementById(cityName3).style.display = "block";
 	
-	for(var i = 0; i < 15 ;i++)
+	for(var i = 0; i < 9 ;i++)
 	{
 		$('#nacional3 		.valor_valor_'+(i+1)).animateNumber({ number: valores_total_3[i] });
 		$('#barranquilla3 	.valor_valor_'+(i+1)).animateNumber({ number: valores_barra_3[i] });
@@ -161,7 +193,6 @@ function openCity3(evt3, cityName3) {
 		$('#manizales3 		.valor_valor_'+(i+1)).animateNumber({ number: valores_maniz_3[i] });
 		$('#medellin3 		.valor_valor_'+(i+1)).animateNumber({ number: valores_medel_3[i] });
 		$('#pereira3 		.valor_valor_'+(i+1)).animateNumber({ number: valores_perei_3[i] });
-		
 	}	
     evt3.currentTarget.className += " active";	
 	
@@ -183,7 +214,7 @@ function openCity4(evt4, cityName4) {
     }
     document.getElementById(cityName4).style.display = "block";
 	
-	for(var i = 0; i < 15 ;i++)
+	for(var i = 0; i < 9 ;i++)
 	{
 		$('#nacional4 		.valor_valor_'+(i+1)).animateNumber({ number: valores_total_4[i] });
 		$('#barranquilla4 	.valor_valor_'+(i+1)).animateNumber({ number: valores_barra_4[i] });
@@ -193,16 +224,81 @@ function openCity4(evt4, cityName4) {
 		$('#cartagena4 		.valor_valor_'+(i+1)).animateNumber({ number: valores_carta_4[i] });
 		$('#manizales4 		.valor_valor_'+(i+1)).animateNumber({ number: valores_maniz_4[i] });
 		$('#medellin4 		.valor_valor_'+(i+1)).animateNumber({ number: valores_medel_4[i] });
-		$('#pereira4 		.valor_valor_'+(i+1)).animateNumber({ number: valores_perei_4[i] });		
+		$('#pereira4 		.valor_valor_'+(i+1)).animateNumber({ number: valores_perei_4[i] });
 	}
 
     evt4.currentTarget.className += " active";
 }
 
+jQuery(document).ready(function(){
+    /*Activador de la primer tab*/
+    document.getElementById("defaultOpen5").click();
+})
+function openCity5(evt5, cityName5) {
+    var i5, tabcontent5, tablinks5;
+    tabcontent5 = document.getElementsByClassName("resultados5");
+    for (i5 = 0; i5 < tabcontent5.length; i5++) {
+        tabcontent5[i5].style.display = "none";
+    }
+    tablinks5 = document.getElementsByClassName("tablinks5");
+    for (i5 = 0; i5 < tablinks5.length; i5++) {
+        tablinks5[i5].className = tablinks5[i5].className.replace(" active","");
+    }
+    document.getElementById(cityName5).style.display = "block";
+	
+	for(var i = 0; i < 9 ;i++)
+	{
+		$('#nacional5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_total_5[i] });
+		$('#barranquilla5 	.valor_valor_'+(i+1)).animateNumber({ number: valores_barra_5[i] });
+		$('#bogota5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_bogot_5[i] });	
+		$('#bucaramanga5 	.valor_valor_'+(i+1)).animateNumber({ number: valores_bucar_5[i] });
+		$('#cali5 			.valor_valor_'+(i+1)).animateNumber({ number: valores_calii_5[i] });
+		$('#cartagena5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_carta_5[i] });
+		$('#manizales5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_maniz_5[i] });
+		$('#medellin5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_medel_5[i] });
+		$('#pereira5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_perei_5[i] });
+	}
+	
+    evt5.currentTarget.className += " active";
+}
+
+jQuery(document).ready(function(){
+    /*Activador de la primer tab*/
+    document.getElementById("defaultOpen6").click();
+})
+function openCity6(evt6, cityName6) {
+    var i6, tabcontent6, tablinks6;
+    tabcontent6 = document.getElementsByClassName("resultados6");
+    for (i6 = 0; i6 < tabcontent6.length; i6++) {
+        tabcontent6[i6].style.display = "none";
+    }
+    tablinks6 = document.getElementsByClassName("tablinks6");
+    for (i6 = 0; i6 < tablinks6.length; i6++) {
+        tablinks6[i6].className = tablinks6[i6].className.replace(" active","");
+    }
+    document.getElementById(cityName6).style.display = "block";
+	
+	for(var i = 0; i < 9 ;i++)
+	{
+		$('#nacional6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_total_6[i] });
+		$('#barranquilla6 	.valor_valor_'+(i+1)).animateNumber({ number: valores_barra_6[i] });
+		$('#bogota6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_bogot_6[i] });	
+		$('#bucaramanga6 	.valor_valor_'+(i+1)).animateNumber({ number: valores_bucar_6[i] });
+		$('#cali6 			.valor_valor_'+(i+1)).animateNumber({ number: valores_calii_6[i] });
+		$('#cartagena6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_carta_6[i] });
+		$('#manizales6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_maniz_6[i] });
+		$('#medellin6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_medel_6[i] });
+		$('#pereira6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_perei_6[i] });
+	}
+	
+    evt6.currentTarget.className += " active";
+}
+
+
 //Menu flotante---------------------------------------------------------------------------------------
 
 function no_listaVisible(){	
-	for(var i = 0; i < 5 ;i++){			
+	for(var i = 0; i < 15 ;i++){			
 		$('#nacional'+i)	.css("display", "none");
 		$('#barranquilla'+i).css("display", "none");
 		$('#bogota'+i)		.css("display", "none");
@@ -318,6 +414,42 @@ function for_cambio(){
 		$('#edad2_4 		.valor_valor_'+(i+1)).animateNumber({ number: valores_edad2_4[i] });
 		$('#edad3_4 		.valor_valor_'+(i+1)).animateNumber({ number: valores_edad3_4[i] });
 		$('#edad4_4 		.valor_valor_'+(i+1)).animateNumber({ number: valores_edad4_4[i] });
+	}
+	
+	for(var i = 0 ; i < 15 ;i++){					
+		$('#nacional5		.valor_valor_'+(i+1)).animateNumber({ number: valores_total_5[i] });
+		$('#barranquilla5 	.valor_valor_'+(i+1)).animateNumber({ number: valores_barra_5[i] });
+		$('#bogota5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_bogot_5[i] });	
+		$('#bucaramanga5 	.valor_valor_'+(i+1)).animateNumber({ number: valores_bucar_5[i] });
+		$('#cali5 			.valor_valor_'+(i+1)).animateNumber({ number: valores_calii_5[i] });
+		$('#cartagena5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_carta_5[i] });
+		$('#manizales5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_maniz_5[i] });
+		$('#medellin5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_medel_5[i] });
+		$('#pereira5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_perei_5[i] });
+		$('#hombre5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_hombr_5[i] });
+		$('#mujer5 			.valor_valor_'+(i+1)).animateNumber({ number: valores_mujer_5[i] });
+		$('#edad1_5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_edad1_5[i] });
+		$('#edad2_5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_edad2_5[i] });
+		$('#edad3_5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_edad3_5[i] });
+		$('#edad4_5 		.valor_valor_'+(i+1)).animateNumber({ number: valores_edad4_5[i] });
+	}
+	
+	for(var i = 0 ; i < 15 ;i++){					
+		$('#nacional6		.valor_valor_'+(i+1)).animateNumber({ number: valores_total_6[i] });
+		$('#barranquilla6 	.valor_valor_'+(i+1)).animateNumber({ number: valores_barra_6[i] });
+		$('#bogota6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_bogot_6[i] });	
+		$('#bucaramanga6 	.valor_valor_'+(i+1)).animateNumber({ number: valores_bucar_6[i] });
+		$('#cali6 			.valor_valor_'+(i+1)).animateNumber({ number: valores_calii_6[i] });
+		$('#cartagena6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_carta_6[i] });
+		$('#manizales6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_maniz_6[i] });
+		$('#medellin6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_medel_6[i] });
+		$('#pereira6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_perei_6[i] });
+		$('#hombre6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_hombr_6[i] });
+		$('#mujer6 			.valor_valor_'+(i+1)).animateNumber({ number: valores_mujer_6[i] });
+		$('#edad1_6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_edad1_6[i] });
+		$('#edad2_6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_edad2_6[i] });
+		$('#edad3_6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_edad3_6[i] });
+		$('#edad4_6 		.valor_valor_'+(i+1)).animateNumber({ number: valores_edad4_6[i] });
 	}
 	
 }

@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 	<div id="c-img-article">
 		<?php echo get_the_post_thumbnail( $post->ID, 'full', array('class' => 'img-fluid') ); ?>	
 	</div>
-	<div class="container px-0 my-4">
+	<div class="container px-md-0 my-4">
 
 		<?php the_breadcrumb(); ?>
 	</div>
@@ -43,7 +43,7 @@ defined( 'ABSPATH' ) || exit;
 					</ul><!-- /Share -->
 				</div>
 			</div>
-			<section class="c-article col-12 col-lg-7">
+			<section class="c-article col-11 col-lg-7">
 				<header class="entry-header">
 
 				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
