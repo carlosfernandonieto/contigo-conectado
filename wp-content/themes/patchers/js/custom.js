@@ -51,18 +51,3 @@ jQuery(document).ready(function($) {
 });
 
 // Parallax
-
-document.addEventListener('DOMContentLoaded', () => {
-  window.addEventListener('scroll', () => {
-      const y = window.scrollY
-      const height = document.body.scrollHeight - window.innerHeight
-      const progress = y / height
-      TweenMax.to(tl1, 0.5, {progress: progress, ease:Power3.easeOut})
-  })
-  const tl1 = new TimelineMax().pause()
-
-  tl1.from('.img-articulo img', 0, { y: '0%' })
-      .to('.img-articulo img', 1, { y: '-100%', ease: Power0.easeNone })
-  
-});
-

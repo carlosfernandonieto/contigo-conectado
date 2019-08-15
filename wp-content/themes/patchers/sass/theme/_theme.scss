@@ -359,6 +359,8 @@
 #wrapper-footer{
     background: url(../images/bg_footer.png) no-repeat;
     background-size: cover;
+    z-index: 1000;
+    position: relative;
 
     #copyright{
         font-family: $cronos_light;
