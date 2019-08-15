@@ -90,7 +90,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                             ?>
 
                                             <div class="ciudad-single row mb-4 mt-4">
-                                                <div class="col-12 col-md-8 px-0 img-resultado">
+                                                <div class="col-12 col-md-8 px-0 img-resultado position-relative">
                                                     <img src="<?php echo $imagen_city['url']; ?>" alt="<?php echo $imagen_city['alt']; ?>" class="img-fluid w-100 h-100"/>
                                                 </div>
                                                 
@@ -98,14 +98,14 @@ $container = get_theme_mod( 'understrap_container_type' );
                                                 if ( have_rows( 'descargables' ) ) : ?>
 
                                                 <div class="col-12 col-md-4 c-resultado px-0">
-                                                    <div class="ciudades">
+                                                    <div class="ciudades ciudades d-flex flex-column h-100">
                                                         <h3 class="text-uppercase"><?php echo esc_html( $nombre ); ?></h3>
                                                         <?php
                                                         while ( have_rows( 'descargables' ) ) : the_row();
                                                             $titulo = get_sub_field( 'titulo' );
                                                             $archivo = get_sub_field( 'archivo' );
                                                         ?>
-                                                            <a href="<?php echo esc_html( $archivo ); ?>" class="d-block"><?php echo esc_html( $titulo ); ?></a>
+                                                            <a href="<?php echo esc_html( $archivo ); ?>" class="d-block" target="_blank"><?php echo esc_html( $titulo ); ?></a>
                                                         <?php endwhile; ?> 
                                                     </div>
                                                 </div>

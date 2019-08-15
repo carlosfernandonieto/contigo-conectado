@@ -65,7 +65,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                             $category2 = get_category( $term2 ); 
                                             $category2_link = get_category_link($term2);
                                         ?> 
-                                    <div data-aos="fade-down" data-aos-duration="1000" class="col-12 col-lg-4 bg-azul_claro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term2);?>)">
+                                    <div data-aos="fade-up" data-aos-duration="1500" class="col-12 col-lg-4 bg-azul_claro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term2);?>)">
                                         <a href="<?php echo esc_url( $category2_link ); ?>" class="d-block h-100 pt-4 c-blanco">
                                         <div class="c-text-cat text-center position-absolute mx-auto bg-azul-o pt-3 pb-4">
                                             <h2><?php print_r($category2->name); ?></h2>
@@ -87,7 +87,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <?php 
                                     $category3 = get_category( $term3 ); 
                                 ?> 
-                            <div data-aos="fade-right" data-aos-duration="1000"  class="col-12 col-lg-3 bg-azul_oscuro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term3);?>)">
+                            <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 col-lg-3 bg-azul_oscuro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term3);?>)">
                                 <a href="<?php echo esc_url( $category3_link ); ?>" class="d-block h-100 pt-4 c-blanco">
                                     <div class="c-text-cat w-100 text-center position-absolute mx-auto bg-morado-o pt-3 pb-4 c-blanco">
                                         <h2><?php print_r($category3->name); ?></h2>
@@ -97,7 +97,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 </a>
                                 <?php endif; ?>
                             </div>
-                            <div data-aos="fade-down" data-aos-duration="1000" class="col-12 col-lg-3 bg-azul_claro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term4);?>)">
+                            <div data-aos="fade-up" data-aos-duration="1500" class="col-12 col-lg-3 bg-azul_claro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term4);?>)">
                                 <?php 
                                 
                                 $category4_link = get_category_link($term4);
@@ -112,7 +112,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     </a>
                                 <?php endif; ?>
                             </div>
-                            <div data-aos="fade-right" data-aos-duration="1000" class="col-12 col-lg-6 bg-primary c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term5);?>)">
+                            <div data-aos="fade-up" data-aos-duration="1000" class="col-12 col-lg-6 bg-primary c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term5);?>)">
                                 <?php 
                                 
                                 $category5_link = get_category_link($term5);
@@ -129,7 +129,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                         <div class="row">
-                            <div data-aos="fade-left" data-aos-duration="1000" class="col-12 col-lg-6 bg-azul_oscuro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term6);?>)">
+                            <div data-aos="fade-up" data-aos-duration="1500" class="col-12 col-lg-6 bg-azul_oscuro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term6);?>)">
                                 <?php 
                                 
                                 $category6_link = get_category_link($term6);
@@ -144,7 +144,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     </a>
                                 <?php endif; ?>
                             </div>
-                            <div data-aos="fade-left" data-aos-duration="1000" class="col-12 col-lg-6 bg-azul_claro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term7);?>)">
+                            <div data-aos="fade-up" data-aos-duration="1000" class="col-12 col-lg-6 bg-azul_claro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term7);?>)">
                             <?php 
                                 
                                 $category7_link = get_category_link($term7);
@@ -162,7 +162,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
 
                         <div class="row">
-                            <div data-aos="fade-right" data-aos-duration="1000" class="col-12 col-lg-6 bg-azul_claro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term8);?>)">
+                            <div data-aos="fade-up" data-aos-duration="1500" class="col-12 col-lg-6 bg-azul_claro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term8);?>)">
                                 <?php 
                                 
                                 $category8_link = get_category_link($term8);
@@ -177,7 +177,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     </a>
                                 <?php endif; ?>
                             </div>
-                            <div data-aos="fade-left" data-aos-duration="1000" class="col-12 col-lg-6  bg-azul_oscuro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term9);?>)">
+                            <div data-aos="fade-up" data-aos-duration="1000" class="col-12 col-lg-6  bg-azul_oscuro c-blanco s-home" style="background:url(<?php echo get_field('imagen_categoria', 'category_'.$term9);?>)">
                                 <?php 
                                 
                                 $category9_link = get_category_link($term9);
