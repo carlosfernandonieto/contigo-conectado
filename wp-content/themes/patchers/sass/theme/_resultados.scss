@@ -179,6 +179,9 @@
         letter-spacing: 1px;
         font-family: $cronos_pro;
         margin-bottom: 20px;
+        @include media-breakpoint-down(md){
+            font-size: 1.2em;
+        }
     }
     a{
         color: $blanco;
@@ -191,6 +194,11 @@
         h3{
             font-family: $cronos_pro;
             letter-spacing: 1px;
+        }
+        .cont-resultado{
+            @include media-breakpoint-down(md){
+                width: 100%;
+            }
         }
     }
 
@@ -205,7 +213,6 @@
                 }
                 a{
                     padding: 35px 50px;
-                    text-align: center;
                     flex-grow: 3;
                     &:nth-child(2){
                         background: $azul_claro;

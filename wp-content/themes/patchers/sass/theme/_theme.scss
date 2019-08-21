@@ -4,16 +4,54 @@
     font-family: $cronos_pro;
 }
 
+h1{
+    font-family: $cronos_pro!important;
+}
+
 .page{
     h1{
-        font-family: $cronos_pro!important;
         color: $azul_quemado;
     }
 }
 
-.hero-category{
+.hero-category,
+.c-img-article{
     margin-top: 65px;
+    @include media-breakpoint-down(md){
+        margin-top: 58px;
+    }
+    
+    .wp-post-image{
+        height: 70vh!important;
+        object-fit: cover;
+    }
 }
+
+.n2-ss-layer-player-cover{
+    @include media-breakpoint-up(xl){
+        background-position-y: 100%!important;
+    }
+}
+
+.n2-section-smartslider{
+    margin-top:  65px;
+    @include media-breakpoint-down(sm){
+        margin-top: 57px;
+    }
+}
+
+.c-titulo {
+    margin-bottom: 20px!important;
+    h1{
+        color: $blanco!important;
+        font-size: 2.5rem!important
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+
 // Keyframes
 
 @-webkit-keyframes glitch {
@@ -84,9 +122,18 @@
 }
 .home{
     background: $primary;
+    .n2-ss-layers-container{
+        width: 100%!important;
+        margin: 0!important;
+        .n2-ss-layer{
+            &:nth-child(3){
+                width: 100%!important;
+                left: 0!important;
+            }
+        }
+    }
 }
 #main-home{
-    
     a{
         &:hover{
             text-decoration: none;
@@ -161,12 +208,22 @@
         font-family: $cronos_pro;
         color: $azul_quemado;
         border-radius: 0;
+        &:focus{
+            box-shadow: none;
+        }
     }
     .dropdown-toggle{
         background: $azul_claro;
         border-radius: 0;
         font-size: 20px;
         color: $blanco;
+        &:focus{
+            box-shadow: none;
+        }
+    }
+    .dropdown-menu.show {
+        display: block;
+        left: -112px!important;
     }
 }
 
@@ -183,6 +240,7 @@
     position: fixed;
     bottom: 0px;
     right: 15px;
+    z-index: 100;
     &:focus{
         outline: none;
     }
@@ -361,7 +419,6 @@
 #wrapper-footer{
     background: url(../images/bg_footer.png) no-repeat;
     background-size: cover;
-    z-index: 1000;
     position: relative;
 
     #copyright{

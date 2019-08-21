@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) || exit;
                 <button type="button" class="btn filter" data-toggle="dropdown">
                 Ciudad
                 </button>
-                <button type="button" class="btn dropdown-toggle dropdown-toggle-split">
+                <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
             
                 <div class="dropdown-menu">
                 <a class="dropdown-item nacional_flo" href="#">Nacional</a>
@@ -38,7 +38,7 @@ defined( 'ABSPATH' ) || exit;
                 <button type="button" class="btn filter" data-toggle="dropdown">
                 Genero
                 </button>
-                <button type="button" class="btn dropdown-toggle dropdown-toggle-split">
+                <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
                 <div class="dropdown-menu">
                 <a class="dropdown-item genero_h" href="#">Hombre</a>
                 <a class="dropdown-item genero_m" href="#">Mujer</a>     
@@ -51,7 +51,7 @@ defined( 'ABSPATH' ) || exit;
                 <button type="button" class="btn filter" data-toggle="dropdown">
                 Edad
                 </button>
-                <button type="button" class="btn dropdown-toggle dropdown-toggle-split">
+                <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
                 <div class="dropdown-menu">
                 <a class="dropdown-item edad_1" href="#">9 a 10</a>
                 <a class="dropdown-item edad_2" href="#">11 a 12</a>     

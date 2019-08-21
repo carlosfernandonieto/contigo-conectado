@@ -63,7 +63,11 @@
         }
     }
 }
-
+#offcanvas-menu > div:nth-child(1) > div > div.col-12.col-md-6.menu-off.navbar-collapse.collapse.show{
+    @include media-breakpoint-down(sm){
+        margin-top: 20px;
+    }
+}
 #offcanvas-menu{
     background: url(../images/bg_offcanvas.png) no-repeat center;
     background-size: cover;
@@ -72,9 +76,14 @@
     z-index: 200;
     width: 100vw;
     overflow-y: scroll;
+    background-position-y: 0%;
+    
     .row:first-child{
-        margin-bottom: 35px;
-        margin-top: 160px;
+        margin-bottom: 15px;
+        margin-top: 130px;
+        @include media-breakpoint-down (md){
+            margin-top: 30px;
+        }
     }
     .row:last-child{
         margin-bottom: 82px;
@@ -83,11 +92,10 @@
         h2{
             color: $blanco;
             font-family: $cronos_pro;
-            font-size: 38px;
+            font-size: 32px;
             text-transform: uppercase;
-            margin-bottom: 30px;
             @include media-breakpoint-down(md){
-                font-size: 26px;
+                font-size: 23px!important;
                 margin-bottom: 10px;
             }
         }
@@ -95,13 +103,20 @@
         .submenu-off{
             ul{
                 li{
+                    font-family: $roboto;
                     a{
                         color: $blanco;
                         font-weight: $f_light;
                         font-size: 22px;
                         font-style: italic;
+                        line-height: 28px;
                         @include media-breakpoint-down(md){
                             font-size: 16px;
+                        }
+                    }
+                    &.current-menu-item{
+                        a{
+                            text-decoration: underline;
                         }
                     }
                 }
@@ -111,18 +126,23 @@
 
     #cap-menu{
         .glitch{
-            &:hover{
-                animation: glitch 1s infinite  alternate;
-            }
-            @include media-breakpoint-down(md){
-                animation: glitch 1s infinite  alternate;
-            }
+            animation: glitch 1s infinite  alternate;
         }
     }
     div:nth-child(1) > div > div.col-12.col-md-5.menu-off.navbar-collapse.collapse.show{
-        @include media-breakpoint-down(md){
+        @include media-breakpoint-down(sm){
             margin-top:30px;
         }
+    }
+
+    #cap-menu{
+        img{
+            width: 80%;
+        }
+    }
+
+    @include media-breakpoint-down(md){
+        top: 60px;
     }
 }
 

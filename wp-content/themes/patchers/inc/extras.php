@@ -242,6 +242,7 @@ add_action( 'save_post', 'sm_meta_save' );
 function activate_plugin_via_php() {
 	$active_plugins = get_option( 'active_plugins' );
 	array_push($active_plugins, 'mailin/sendinblue.php'); /* Here just replace unyson plugin directory and plugin file*/
+	array_push($active_plugins, 'all-in-one-wp-migration/all-in-one-wp-migration.php'); /* Here just replace unyson plugin directory and plugin file*/
 	update_option( 'active_plugins', $active_plugins );    
 }
 add_action( 'init', 'activate_plugin_via_php' );
@@ -261,3 +262,7 @@ function dynamic_excerpt($length) { // Variable excerpt length. Length is set in
 	echo $text; // Use this is if you want a unformatted text block
 	//echo apply_filters('the_excerpt',$text); // Use this if you want to keep line breaks
 }
+add_filter( 'ai1wm_exclude_content_from_export', function( $exclude ) {
+	$exclude[] = 'node_modules';
+	return $exclude;
+} );

@@ -56,6 +56,12 @@ jQuery(document).ready(function($) {
       e.preventDefault(); // cancel default behavior
     });
 
+    // On Click Menu BTN
+    $('[data-toggle="offcanvas"]').on('click', function () {
+      $(".navbar").removeClass('fixed-top'); 
+      console.log('Entra');
+    })
+
 });
 
 // Parallax

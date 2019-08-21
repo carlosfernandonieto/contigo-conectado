@@ -73,8 +73,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="container-fluid position-absolute" id="offcanvas-menu">
 					<div class="row w-100 menu-off collapse navbar-collapse">
 						<div class="container d-md-flex mx-auto">
-							<div class="col-12 col-md-1"></div>
-								<div class="col-12 col-md-5">
+								<div class="col-12 col-md-6">
 									<h2>Nosotros</h2>
 									<?php wp_nav_menu(
 											array(
@@ -88,7 +87,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 											)
 									); ?>
 								</div>
-								<div class="col-12 col-md-5 menu-off collapse navbar-collapse">
+								<div class="col-12 col-md-6 menu-off collapse navbar-collapse">
 									<h2>Resultados de estudio</h2>
 									<?php wp_nav_menu(
 											array(
@@ -106,8 +105,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 					<div class="row w-100 menu-off collapse navbar-collapse">
 						<div class="container d-md-flex mx-auto">
-							<div class="col-12 col-md-1"></div>
-								<div class="col-12 col-md-5">
+								<div class="col-12 col-md-6">
 									<h2>Temas</h2>
 									<?php wp_nav_menu(
 											array(
@@ -121,18 +119,20 @@ $container = get_theme_mod( 'understrap_container_type' );
 											)
 									); ?>
 								</div>
-								<div class="col-12 col-md-5">
-									<div class="collapse navbar-collapse menu-off position-relative" id="cap-menu">
+								<div class="col-12 col-md-6">
+									<div class="collapse navbar-collapse menu-off position-relative h-100" id="cap-menu">
 									<?php 
 									$image = get_field('capitulo', 2507);
 									$glitch = get_field('glitch', 2507);
-
+									$numero_capitulo = get_field('numero_capitulo', 2507);
 
 									if( !empty($image) ): ?>
 
-										<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid position-absolute"/>
+										<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid position-absolute mb-4"/>
 										<img src="<?php echo $glitch['url']; ?>" alt="<?php echo $glitch['alt']; ?>" class="img-fluid position-absolute glitch"/>
+										<img src="<?php echo $numero_capitulo['url']; ?>" alt="<?php echo $numero_capitulo['alt']; ?>" class="img-fluid position-absolute num-cap"/>
 									<?php endif; ?>
+									<p class="c-blanco">Próximamente</p>
 									</div>
 								</div>
 						</div>

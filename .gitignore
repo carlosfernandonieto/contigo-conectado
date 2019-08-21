@@ -100,7 +100,7 @@ typings/
 # "mu-plugins", "plugins", "themes" directory
 wp-content/*
 !wp-content/mu-plugins/
-!wp-content/plugins/
+wp-content/plugins/
 !wp-content/themes/
 wp-config.php
 
@@ -117,3 +117,5 @@ wp-content/themes/twenty*/
 *.sqlite
 
 # End of https://www.gitignore.io/api/node,wordpress
+local-phpinfo.php
+wp-snapshots/tmp/20190815_contigoconectados_b10c79bde7c673852080_20190815220850_scan.json

@@ -28,9 +28,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<div class="<?php echo esc_attr( $container ); ?>-fluid px-0" id="p-descargables">
 
-		<div class="row">
+		<div class="row-">
 
-			<div class="col-md-12 content-area" id="primary">
+			<div class="col-md-12 content-area px-0" id="primary">
 
 				<main class="site-main" id="main" role="main">
 
@@ -50,7 +50,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <div id="informes">
                                 <div class="container-fluid">
                                     <div id="c-informe-g" class="row mb-4" style="background:url(<?php echo $image['url']; ?>) no-repeat;">
-                                        <div class="col-4 cont-resultado mx-auto text-center bg-azul-o c-blanco py-4">
+                                        <div class="col-12 col-lg-4 cont-resultado mx-auto text-center bg-azul-o c-blanco py-4">
                                             <h3 class="text-uppercase"><?php the_sub_field('titulo'); ?></h3>
                                             <a href="<?php echo $link['url']; ?>" target="_blank"><?php the_sub_field('texto'); ?></a>
                                             <p class="mb-0 mt-2"><a href="<?php echo $link['url']; ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-download.png" alt="Descargar"></a></p>
@@ -105,7 +105,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                                             $titulo = get_sub_field( 'titulo' );
                                                             $archivo = get_sub_field( 'archivo' );
                                                         ?>
-                                                            <a href="<?php echo esc_html( $archivo ); ?>" class="d-block" target="_blank"><?php echo esc_html( $titulo ); ?></a>
+                                                            <a href="<?php echo esc_html( $archivo ); ?>" class="d-block text-center" target="_blank"><?php echo esc_html( $titulo ); ?></a>
                                                         <?php endwhile; ?> 
                                                     </div>
                                                 </div>

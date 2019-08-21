@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 	<div id="c-img-article">
-		<?php echo get_the_post_thumbnail( $post->ID, 'full', array('class' => 'img-fluid') ); ?>	
+		<?php echo get_the_post_thumbnail( $post->ID, 'full', array('class' => 'img-fluid w-100') ); ?>	
 	</div>
 	<div class="container px-md-0 my-4">
 
@@ -70,48 +70,43 @@ defined( 'ABSPATH' ) || exit;
 				</div><!-- .entry-content -->
 			</section>
 			<aside class="col-12 col-lg-4" id="related-posts">
-				<?php $orig_post = $post;
-					global $post;
-					$tags = wp_get_post_tags($post->ID);
-					if ($tags) {
-					$tag_ids = array();
-					foreach($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
-					$args=array(
-					'tag__in' => $tag_ids,
-					'post__not_in' => array($post->ID),
-					'posts_per_page'=>3, // Number of related posts that will be shown.
-					'caller_get_posts'=>1
-					);
-					$my_query = new wp_query( $args );
-					if( $my_query->have_posts() ) {
-
-					echo '<div id="relatedposts"><h3 class="text-uppercase">Artículos Relacionados</h3>';
-
-					while( $my_query->have_posts() ) {
-					$my_query->the_post(); ?>
-
-					<article class="position-relative">
+				<?php 
+				/**
+				 * pll_current_language($value) - returns the current language on frontend (Polylang plugin).
+				 * $value - (optional) either name or locale or slug. 
+				 * Defaults to slug.
+				 */
+				echo '<div id="relatedposts"><h3 class="text-uppercase">Artículos Relacionados</h3>';
+				$related = new WP_Query(
+					array(
+					'category__in'   => wp_get_post_categories( $post->ID ),
+					'posts_per_page' => 3,
+					'post__not_in'   => array( $post->ID )
+					)
+				);
+				if( $related->have_posts() ) { 
+					while( $related->have_posts() ) { 
+					$related->the_post(); ?>
+					<article class="position-relative">		
 						<div class="relatedthumb position-absolute h-100">
-							<a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>" class="d-block h-100">
-								<?php the_post_thumbnail(); ?>
-							</a>
-						</div>
-						<div class="relatedcontent position-absolute bg-blanco-o">
-							<h4 class="text-center">
-								<a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>">
-									<?php the_title(); ?>
+								<a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>" class="d-block h-100">
+									<?php the_post_thumbnail(); ?>
 								</a>
-							</h4>
-							<p class="text-center"><?php dynamic_excerpt(80); ?></p>
-							<a class="btn-cta" href="<?php the_permalink();?>">Ver más</a>
-						</div>
-					</article>
-					<? }
+							</div>
+							<div class="relatedcontent position-absolute bg-blanco-o">
+								<h4 class="text-center">
+									<?php the_title(); ?>
+								</h4>
+								<p class="text-center"><?php dynamic_excerpt(80); ?></p>
+								<a class="btn-cta" href="<?php the_permalink();?>">Ver más</a>
+							</div>	
+					</article><?php 
+					
+					}
+					wp_reset_postdata();
 					echo '</div>';
-					}
-					}
-					$post = $orig_post;
-				wp_reset_query(); ?>
+				}	
+				?>
 			</aside>
 		</div><!-- fin row -->
 	</div>

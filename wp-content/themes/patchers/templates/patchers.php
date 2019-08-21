@@ -13,16 +13,37 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
+<style>
+.page-template-patchers .n2-ss-layers-container{
+    width:100%!important;
+}
+
+.page-template-patchers #n2-ss-1 > div > div.n2-ss-slider-2.n2-ow > div > div.n2-ss-slide.n2-ss-canvas.n2-ow.n2-ss-slide-8.n2-ss-slide-active > div > div:nth-child(3){
+    width:100%!important;
+    left:0!important;
+}
+
+#n2-ss-31 > div > div > div > div.n2-ss-slide.n2-ss-canvas.n2-ow.n2-ss-slide-34.n2-ss-slide-active > div > div{
+    width:100%!important;
+    left:0!important;
+}
+</style>
 
 <?php if ( is_front_page() ) : ?>
   <?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
 <section class="hero-category position-relative">
-    <?php 
-    if ( has_post_thumbnail() ) {
-        the_post_thumbnail('full', array('class' => 'img-fluid w-100')  );
-    }
-    ?>
+    <div class="d-none d-lg-block">
+            <?php 
+                echo get_field('hero_content'); 
+            ?>
+        </div>
+
+        <div class="d-block d-lg-none">
+            <?php 
+                echo do_shortcode('[smartslider3 slider=31]'); 
+            ?>
+        </div>
     <h1 class="invisible"><?php the_title(); ?></h1>
 </section>
 <div class="container">
@@ -52,6 +73,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                         <div class="c-poster-video position-relative">
                                             <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="img-fluid w-100" />
                                             <div class="position-absolute c-duracion"><?php echo $duracion; ?></div>
+                                            <div class="position-absolute c-play"><img src="<?php echo get_template_directory_uri(); ?>/images/btn-play-video.png" alt="Play"></div>
                                         </div>
                                         <div class="c-info-video">
                                             <h2><?php echo $titulo; ?></h2>

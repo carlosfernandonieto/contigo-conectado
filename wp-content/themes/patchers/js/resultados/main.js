@@ -335,7 +335,7 @@ function esconder_menu(){
 
 jQuery(document).ready(function(){
 	
-	$(".nacional_flo").css("filter", "none");
+	$(".nacional_flo").css("text-decoration", "underline");
 	
 	$(".bt_ciudad").click(function(){
 		apagar_pesta();
@@ -359,7 +359,7 @@ jQuery(document).ready(function(){
 	
 	$(".nacional_flo").click(function(){		
 		menugris();
-		$(".nacional_flo").css("filter", "none");
+		$(".nacional_flo").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#nacional');
 		for_cambio();		
@@ -367,7 +367,7 @@ jQuery(document).ready(function(){
 	
 	$(".barranquilla_flo").click(function(){
 		menugris();
-		$(".barranquilla_flo").css("filter", "none");
+		$(".barranquilla_flo").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#barranquilla');
 		for_cambio();
@@ -376,7 +376,7 @@ jQuery(document).ready(function(){
 	
 	$(".bogota_flo").click(function(){
 		menugris();
-		$(".bogota_flo").css("filter", "none");
+		$(".bogota_flo").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#bogota');
 		for_cambio();		
@@ -384,7 +384,7 @@ jQuery(document).ready(function(){
 	
 	$(".bucaramanga_flo").click(function(){
 		menugris();
-		$(".bucaramanga_flo").css("filter", "none");
+		$(".bucaramanga_flo").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#bucaramanga');
 		for_cambio();		
@@ -392,7 +392,7 @@ jQuery(document).ready(function(){
 	
 	$(".cali_flo").click(function(){
 		menugris();
-		$(".cali_flo").css("filter", "none");
+		$(".cali_flo").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#cali');
 		for_cambio();		
@@ -400,7 +400,7 @@ jQuery(document).ready(function(){
 	
 	$(".cartagena_flo").click(function(){
 		menugris();
-		$(".cartagena_flo").css("filter", "none");
+		$(".cartagena_flo").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#cartagena');
 		for_cambio();		
@@ -408,7 +408,7 @@ jQuery(document).ready(function(){
 	
 	$(".manizales_flo").click(function(){
 		menugris();
-		$(".manizales_flo").css("filter", "none");
+		$(".manizales_flo").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#manizales');
 		for_cambio();		
@@ -416,7 +416,7 @@ jQuery(document).ready(function(){
 	
 	$(".medellin_flo").click(function(){
 		menugris();
-		$(".medellin_flo").css("filter", "none");
+		$(".medellin_flo").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#medellin');
 		for_cambio();		
@@ -424,7 +424,7 @@ jQuery(document).ready(function(){
 	
 	$(".pereira_flo").click(function(){
 		menugris();
-		$(".pereira_flo").css("filter", "none");
+		$(".pereira_flo").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#pereira');
 		for_cambio();		
@@ -432,7 +432,7 @@ jQuery(document).ready(function(){
 	
 	$(".genero_h").click(function(){
 		menugris();
-		$(".genero_h").css("filter", "none");
+		$(".genero_h").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#hombre');
 		for_cambio();		
@@ -440,7 +440,7 @@ jQuery(document).ready(function(){
 	
 	$(".genero_m").click(function(){
 		menugris();
-		$(".genero_m").css("filter", "none");
+		$(".genero_m").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#mujer');
 		for_cambio();		
@@ -448,7 +448,7 @@ jQuery(document).ready(function(){
 	
 	$(".edad_1").click(function(){		
 		menugris();
-		$(".edad_1").css("filter", "none");
+		$(".edad_1").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#edad1_');
 		for_cambio();		
@@ -456,7 +456,7 @@ jQuery(document).ready(function(){
 	
 	$(".edad_2").click(function(){
 		menugris();
-		$(".edad_2").css("filter", "none");
+		$(".edad_2").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#edad2_');
 		for_cambio();
@@ -465,7 +465,7 @@ jQuery(document).ready(function(){
 	
 	$(".edad_3").click(function(){
 		menugris();
-		$(".edad_3").css("filter", "none");
+		$(".edad_3").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#edad3_');
 		for_cambio();		
@@ -473,7 +473,7 @@ jQuery(document).ready(function(){
 	
 	$(".edad_4").click(function(){
 		menugris();
-		$(".edad_4").css("filter", "none");
+		$(".edad_4").css("text-decoration", "underline");
 		no_listaVisible();
 		listaVisible('#edad4_');
 		for_cambio();		

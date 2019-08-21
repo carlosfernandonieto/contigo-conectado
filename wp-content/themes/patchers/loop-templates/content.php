@@ -9,7 +9,7 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 <article <?php post_class('d-lg-flex'); ?> id="post-<?php the_ID(); ?>">
-	<div class="col-12 col-lg-4 img-articulo pr-lg-0 px-0" data-aos="fade-up" data-aos-duration="2000">
+	<div class="col-12 col-lg-6 img-articulo pr-lg-0 px-0" data-aos="fade-up" data-aos-duration="2000">
 		
 		<?php 
 		$image = get_field('imagen_categoria', $post->ID);
@@ -20,9 +20,9 @@ defined( 'ABSPATH' ) || exit;
 
 		<?php endif; ?>
 	</div>
-	<div class="col-12 col-lg-8 info-articulo">
+	<div class="col-12 col-lg-6 info-articulo">
 		<div class="c-article">
-			<header class="entry-header w-50">
+			<header class="entry-header">
 
 				<?php
 				the_title(
@@ -37,7 +37,7 @@ defined( 'ABSPATH' ) || exit;
 
 			</header><!-- .entry-header -->
 
-			<div class="entry-content w-50">
+			<div class="entry-content">
 
 				<?php the_excerpt(); ?>
 
