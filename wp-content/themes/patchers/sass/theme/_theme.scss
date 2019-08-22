@@ -15,7 +15,7 @@ h1{
 }
 
 .hero-category,
-.c-img-article{
+#c-img-article{
     margin-top: 65px;
     @include media-breakpoint-down(md){
         margin-top: 58px;
@@ -25,6 +25,9 @@ h1{
         height: 70vh!important;
         object-fit: cover;
         object-position: top;
+        @include media-breakpoint-down(md){
+            height: 40vh!important;
+        }
     }
 }
 
