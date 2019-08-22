@@ -24,6 +24,7 @@ h1{
     .wp-post-image{
         height: 70vh!important;
         object-fit: cover;
+        object-position: top;
     }
 }
 
@@ -47,7 +48,13 @@ h1{
         font-size: 2.5rem!important
     }
     p{
-        font-size: 20px;
+        font-size: 20px!important;
+        text-align: justify!important;
+        direction: ltr;
+        @include media-breakpoint-down(md){
+            text-align: justify!important;
+            line-height: 18px!important;
+        }
     }
 }
 
@@ -240,7 +247,7 @@ h1{
     position: fixed;
     bottom: 0px;
     right: 15px;
-    z-index: 100;
+    z-index: 200;
     &:focus{
         outline: none;
     }
@@ -252,7 +259,7 @@ h1{
     position: fixed;
     bottom: 0;
     right: 15px;
-    z-index: 9;
+    z-index: 100;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 
@@ -262,6 +269,16 @@ h1{
         font-size: 1em;
         text-align: center;
         font-family: $roboto;
+        &.sib-NAME-area{
+            background:url(../images/bg-nombre-f.png) no-repeat;
+            background-position-x: 10px;
+            background-position-y: 11px;
+        }
+        &.sib-email-area{
+            background:url(../images/bg-email-f.png) no-repeat;
+            background-position-x: 10px;
+            background-position-y: 16px;
+        }
     }
     i{
         font-size: 30px;
@@ -278,7 +295,7 @@ h1{
     input[type="text"],
     input[type="email"]{
         border-radius: 5px;
-        
+        background: none;
         border:2px solid $blanco;
         padding: 10px 10px 10px 40px;
         font-family: $cronos_disp;
@@ -305,18 +322,6 @@ h1{
         text-transform: uppercase;
         color: $blanco;
         letter-spacing: 1px;
-    }
-
-    .sib-NAME-area{
-        background:url(../images/bg-nombre-f.png) no-repeat;
-        background-position-x: 10px;
-        background-position-y: 10px;
-    }
-
-    .sib-email-area{
-        background:url(../images/bg-email-f.png) no-repeat;
-        background-position-x: 10px;
-        background-position-y: 10px;
     }
   }
   

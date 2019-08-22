@@ -13,12 +13,12 @@ defined( 'ABSPATH' ) || exit;
     <p>Filtrar por:</p>
     <div class="dropdown d-inline-block">
             <div class="btn-group">
-                <button type="button" class="btn filter" data-toggle="dropdown">
+                <button id="btn-ciudad" type="button" class="btn filter" data-toggle="dropdown">
                 Ciudad
                 </button>
                 <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
             
-                <div class="dropdown-menu">
+                <div class="dropdown-menu bt_ciudad">
                 <a class="dropdown-item nacional_flo" href="#">Nacional</a>
                 <a class="dropdown-item barranquilla_flo" href="#">Barranquilla</a>
                 <a class="dropdown-item bogota_flo" href="#">Bogotá</a>
@@ -35,11 +35,11 @@ defined( 'ABSPATH' ) || exit;
 
     <div class="dropdown d-inline-block">
            <div class="btn-group">
-                <button type="button" class="btn filter" data-toggle="dropdown">
+                <button id="btn-genero" type="button" class="btn filter" data-toggle="dropdown">
                 Genero
                 </button>
                 <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
-                <div class="dropdown-menu">
+                <div class="dropdown-menu bt_genero">
                 <a class="dropdown-item genero_h" href="#">Hombre</a>
                 <a class="dropdown-item genero_m" href="#">Mujer</a>     
                 </div>
@@ -48,11 +48,11 @@ defined( 'ABSPATH' ) || exit;
 
     <div class="dropdown d-inline-block">
            <div class="btn-group">
-                <button type="button" class="btn filter" data-toggle="dropdown">
+                <button id="btn-edad" type="button" class="btn filter " data-toggle="dropdown">
                 Edad
                 </button>
                 <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
-                <div class="dropdown-menu">
+                <div class="dropdown-menu bt_edad">
                 <a class="dropdown-item edad_1" href="#">9 a 10</a>
                 <a class="dropdown-item edad_2" href="#">11 a 12</a>     
                 <a class="dropdown-item edad_3" href="#">13 a 14</a>

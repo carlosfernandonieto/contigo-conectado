@@ -74,7 +74,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="row w-100 menu-off collapse navbar-collapse">
 						<div class="container d-md-flex mx-auto">
 								<div class="col-12 col-md-6">
-									<h2>Nosotros</h2>
+									<h2 id="btn-nosotros">Nosotros</h2>
+									<button id="btn-m-nosotros" role="button" data-toggle="collapse" data-target="#menu-nosotros-off" class="d-none" type="button">Nosotros</button>
 									<?php wp_nav_menu(
 											array(
 												'theme_location'  => '',
@@ -88,7 +89,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 									); ?>
 								</div>
 								<div class="col-12 col-md-6 menu-off collapse navbar-collapse">
-									<h2>Resultados de estudio</h2>
+									<h2 id="btn-resultados">Resultados de estudio</h2>
+									<button id="btn-m-resultados" role="button" data-toggle="collapse" data-target="#menu-resultados-off" class="d-none" type="button">Resultados de estudio</button>
 									<?php wp_nav_menu(
 											array(
 												'theme_location'  => '',
@@ -106,7 +108,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="row w-100 menu-off collapse navbar-collapse">
 						<div class="container d-md-flex mx-auto">
 								<div class="col-12 col-md-6">
-									<h2>Temas</h2>
+									<h2 id="btn-temas">Temas</h2>
+									<button id="btn-m-temas" role="button" data-toggle="collapse" data-target="#menu-temas-off" class="d-none" type="button">Temas</button>
 									<?php wp_nav_menu(
 											array(
 												'theme_location'  => '',
@@ -120,7 +123,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									); ?>
 								</div>
 								<div class="col-12 col-md-6">
-									<div class="collapse navbar-collapse menu-off position-relative h-100" id="cap-menu">
+									<div class="menu-off position-relative" id="cap-menu">
 									<?php 
 									$image = get_field('capitulo', 2507);
 									$glitch = get_field('glitch', 2507);
@@ -132,7 +135,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<img src="<?php echo $glitch['url']; ?>" alt="<?php echo $glitch['alt']; ?>" class="img-fluid position-absolute glitch"/>
 										<img src="<?php echo $numero_capitulo['url']; ?>" alt="<?php echo $numero_capitulo['alt']; ?>" class="img-fluid position-absolute num-cap"/>
 									<?php endif; ?>
-									<p class="c-blanco">Próximamente</p>
 									</div>
 								</div>
 						</div>

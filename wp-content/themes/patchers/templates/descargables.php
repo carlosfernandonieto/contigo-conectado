@@ -105,7 +105,9 @@ $container = get_theme_mod( 'understrap_container_type' );
                                                             $titulo = get_sub_field( 'titulo' );
                                                             $archivo = get_sub_field( 'archivo' );
                                                         ?>
+                                                            <?php if( $archivo ): ?>
                                                             <a href="<?php echo esc_html( $archivo ); ?>" class="d-block text-center" target="_blank"><?php echo esc_html( $titulo ); ?></a>
+                                                            <?php endif; ?>
                                                         <?php endwhile; ?> 
                                                     </div>
                                                 </div>

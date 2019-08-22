@@ -477,12 +477,16 @@ jQuery(document).ready(function(){
 	
 	$(".bt_genero").click(function(){
 		apagar_pesta()
+		console.log('Click Genero');
+
 		$(".bt_genero").addClass( "bt_on" );
 		$(".menuGenero").css("display", "inherit");
 	});
 	
 	$(".bt_edad").click(function(){
 		apagar_pesta()
+		console.log('Click Edad');
+
 		$( ".bt_edad").addClass( "bt_on" );
 		$(".menuEdad").css("display", "inherit");	
 	});

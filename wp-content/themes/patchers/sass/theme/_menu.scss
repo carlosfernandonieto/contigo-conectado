@@ -87,17 +87,25 @@
     }
     .row:last-child{
         margin-bottom: 82px;
+        @include media-breakpoint-down (md){
+            margin-bottom: 40px;
+        }
     }
     .menu-off{
-        h2{
+        h2,button{
             color: $blanco;
             font-family: $cronos_pro;
             font-size: 32px;
             text-transform: uppercase;
+            padding: 0;
+            appearance: none;
+            background: none;
+            border: 0;
             @include media-breakpoint-down(md){
                 font-size: 23px!important;
                 margin-bottom: 10px;
             }
+            
         }
 
         .submenu-off{
@@ -125,24 +133,29 @@
     }
 
     #cap-menu{
-        .glitch{
-            animation: glitch 1s infinite  alternate;
+        min-height: 200px;
+        max-height: 300px;
+        img{
+            width: 80%;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            &.glitch{
+                animation: glitch 1s infinite  alternate;
+            }
         }
+        @include media-breakpoint-down (md){
+            margin-top: 30px;
+        }
+        
     }
     div:nth-child(1) > div > div.col-12.col-md-5.menu-off.navbar-collapse.collapse.show{
         @include media-breakpoint-down(sm){
             margin-top:30px;
         }
     }
-
-    #cap-menu{
-        img{
-            width: 80%;
-        }
-    }
-
     @include media-breakpoint-down(md){
-        top: 60px;
+        top: 57px;
     }
 }
 
