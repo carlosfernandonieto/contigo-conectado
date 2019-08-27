@@ -42,6 +42,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="<?php echo esc_attr( $container ); ?>-fluid px-0" id="content">
 		<div class="col-md-12 content-area" id="primary">
 				<main class="site-main" id="main-home" role="main">
+                <h1 class="invisible" style="height:0;">Contigo Conectados</h1>
 
 					<?php while ( have_posts() ) : the_post(); ?>
                         <div class="row">

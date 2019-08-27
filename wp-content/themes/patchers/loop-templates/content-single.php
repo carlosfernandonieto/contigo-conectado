@@ -21,10 +21,10 @@ defined( 'ABSPATH' ) || exit;
 		<div class="row">
 			<div class="d-none d-md-block col-1 pl-0" id="share-media">
 				<div class="entry-meta text-center">
-					<p id="p-day" class="mb-1">
+					<p id="p-day" class="mb-1 d-none">
 						<?php the_time('d'); ?>
 					</p>
-					<p id="p-month" class="text-uppercase">
+					<p id="p-month" class="text-uppercase d-none">
 						<?php the_time('M'); ?>
 					</p>
 				</div><!-- .entry-meta -->

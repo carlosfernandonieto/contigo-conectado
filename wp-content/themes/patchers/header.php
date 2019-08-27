@@ -21,15 +21,26 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<?php wp_head(); ?>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PL6LLGZ');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body <?php body_class(); ?>>
+
 <?php do_action( 'wp_body_open' ); ?>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL6LLGZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
-	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
+	<div id="wrapper-navbar" itemscope itemtype="https://schema.org/WebSite">
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
@@ -99,6 +110,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 												'menu_class'      => 'navbar-nav ml-auto',
 												'fallback_cb'     => '',
 												'menu'         => 'Resultados_de_estudio',
+                                                
 												'depth'           => 1
 											)
 									); ?>
@@ -124,6 +136,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 								<div class="col-12 col-md-6">
 									<div class="menu-off position-relative" id="cap-menu">
+                                    <h2 class="c-azul_claro">Estreno de Capítulo</h2>
 									<?php 
 									$image = get_field('capitulo', 2507);
 									$glitch = get_field('glitch', 2507);
@@ -131,9 +144,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 									if( !empty($image) ): ?>
 
-										<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid position-absolute mb-4"/>
-										<img src="<?php echo $glitch['url']; ?>" alt="<?php echo $glitch['alt']; ?>" class="img-fluid position-absolute glitch"/>
-										<img src="<?php echo $numero_capitulo['url']; ?>" alt="<?php echo $numero_capitulo['alt']; ?>" class="img-fluid position-absolute num-cap"/>
+										<a href="<?php echo home_url()?>/patchers#patchers">
+											<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid position-absolute mb-4"/>
+											<img src="<?php echo $glitch['url']; ?>" alt="<?php echo $glitch['alt']; ?>" class="img-fluid position-absolute glitch"/>
+											<img src="<?php echo $numero_capitulo['url']; ?>" alt="<?php echo $numero_capitulo['alt']; ?>" class="img-fluid position-absolute num-cap"/>
+										</a>
 									<?php endif; ?>
 									</div>
 								</div>
