@@ -33,17 +33,9 @@ $container = get_theme_mod( 'understrap_container_type' );
   <?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
 <section class="hero-category position-relative">
-    <div class="d-none d-lg-block">
-            <?php 
-                echo get_field('hero_content'); 
-            ?>
-        </div>
-
-        <div class="d-block d-lg-none">
-            <?php 
-                echo do_shortcode('[smartslider3 slider=31]'); 
-            ?>
-        </div>
+        <?php 
+            echo get_field('hero_content'); 
+        ?>
     <h1 class="invisible"><?php the_title(); ?></h1>
 </section>
 <div class="container">
@@ -68,8 +60,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 $video = get_sub_field('enlace_del_video');
                                 ?>
 
-                                <div class="video col-12 col-lg-6 col-xl-4 px-0">
-                                    <a class="d-block video-y video-btn" data-toggle="modal" data-target="#myModal" data-src="<?php echo $video; ?>">
+                                <div class="video col-12 col-lg-6 col-xl-4 px-0 bg-azul_videos">
+                                    <a class="d-block video-y video-btn h-100" data-toggle="modal" data-target="#myModal" data-src="<?php echo $video; ?>">
                                         <div class="c-poster-video position-relative">
                                             <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="img-fluid w-100" />
                                             <div class="position-absolute c-duracion"><?php echo $duracion; ?></div>
@@ -93,7 +85,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div><!-- .row end -->
                     <!-- Modal -->
                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
 
                             

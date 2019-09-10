@@ -73,12 +73,13 @@
         font-family: $cronos_pro;
     }
     .ache3 {
-        color: $primary!important;
+        color: $blanco!important;
         font-size: 20px !important;
         text-align: center;
         background: url(../images/icon-percentage.png) no-repeat;
         background-position: center; 
-        padding: 60px 10px 15px;
+        height: 99px;
+        line-height: 100px;
     }
     .tiempo{
         text-align: center;
