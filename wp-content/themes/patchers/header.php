@@ -85,16 +85,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="row w-100 menu-off collapse navbar-collapse">
 						<div class="container d-md-flex mx-auto">
 								<div class="col-12 col-md-6">
-									<h2 id="btn-nosotros">Nosotros</h2>
-									<button id="btn-m-nosotros" role="button" data-toggle="collapse" data-target="#menu-nosotros-off" class="d-none" type="button">Nosotros</button>
+									<h2 id="btn-temas">Temas</h2>
+									<button id="btn-m-temas" role="button" data-toggle="collapse" data-target="#menu-temas-off" class="d-none" type="button">Temas</button>
 									<?php wp_nav_menu(
 											array(
 												'theme_location'  => '',
 												'container_class' => 'submenu-off',
-												'container_id'    => 'menu-nosotros-off',
+												'container_id'    => 'menu-temas-off',
 												'menu_class'      => 'navbar-nav ml-auto',
 												'fallback_cb'     => '',
-												'menu'         => 'Nosotros',
+												'menu'         => 'Temas',
 												'depth'           => 1
 											)
 									); ?>
@@ -120,36 +120,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="row w-100 menu-off collapse navbar-collapse">
 						<div class="container d-md-flex mx-auto">
 								<div class="col-12 col-md-6">
-									<h2 id="btn-temas">Temas</h2>
-									<button id="btn-m-temas" role="button" data-toggle="collapse" data-target="#menu-temas-off" class="d-none" type="button">Temas</button>
+									<h2 id="btn-nosotros">Nosotros</h2>
+									<button id="btn-m-nosotros" role="button" data-toggle="collapse" data-target="#menu-nosotros-off" class="d-none" type="button">Nosotros</button>
 									<?php wp_nav_menu(
 											array(
 												'theme_location'  => '',
 												'container_class' => 'submenu-off',
-												'container_id'    => 'menu-temas-off',
+												'container_id'    => 'menu-nosotros-off',
 												'menu_class'      => 'navbar-nav ml-auto',
 												'fallback_cb'     => '',
-												'menu'         => 'Temas',
+												'menu'         => 'Nosotros',
 												'depth'           => 1
 											)
 									); ?>
 								</div>
 								<div class="col-12 col-md-6">
-									<div class="menu-off position-relative" id="cap-menu">
+									<div class="" id="cap-menu">
                                     <h2 class="c-azul_claro">Estreno de Capítulo</h2>
-									<?php 
-									$image = get_field('capitulo', 2507);
-									$glitch = get_field('glitch', 2507);
-									$numero_capitulo = get_field('numero_capitulo', 2507);
+									<div class="col">
+										<?php 
+										$image = get_field('capitulo', 2507);
+										$glitch = get_field('glitch', 2507);
+										$numero_capitulo = get_field('numero_capitulo', 2507);
 
-									if( !empty($image) ): ?>
+										if( !empty($image) ): ?>
 
-										<a href="<?php echo home_url()?>/patchers#patchers">
-											<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid position-absolute mb-4"/>
-											<img src="<?php echo $glitch['url']; ?>" alt="<?php echo $glitch['alt']; ?>" class="img-fluid position-absolute glitch"/>
-											<img src="<?php echo $numero_capitulo['url']; ?>" alt="<?php echo $numero_capitulo['alt']; ?>" class="img-fluid position-absolute num-cap"/>
-										</a>
-									<?php endif; ?>
+											<a href="<?php echo home_url()?>/patchers#patchers" class="d-block h-100">
+												<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid position-absolute mb-4"/>
+												<img src="<?php echo $glitch['url']; ?>" alt="<?php echo $glitch['alt']; ?>" class="img-fluid position-absolute glitch"/>
+												<img src="<?php echo $numero_capitulo['url']; ?>" alt="<?php echo $numero_capitulo['alt']; ?>" class="img-fluid position-absolute num-cap"/>
+											</a>
+										<?php endif; ?>
+									</div>
 									</div>
 								</div>
 						</div>

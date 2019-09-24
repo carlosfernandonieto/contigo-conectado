@@ -65,7 +65,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                         <div class="c-poster-video position-relative">
                                             <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="img-fluid w-100" />
                                             <div class="position-absolute c-duracion"><?php echo $duracion; ?></div>
-                                            <div class="position-absolute c-play"><img src="<?php echo get_template_directory_uri(); ?>/images/btn-play-video.png" alt="Play"></div>
+                                            <div class="position-absolute c-play"><img src="<?php echo get_template_directory_uri(); ?>/images/Play-80x80.png" alt="Play"></div>
                                         </div>
                                         <div class="c-info-video">
                                             <h2><?php echo $titulo; ?></h2>
