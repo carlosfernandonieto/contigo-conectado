@@ -25,19 +25,34 @@ $container = get_theme_mod( 'understrap_container_type' );
 </style>
 
 <div class="wrapper py-0" id="full-width-page-wrapper">
-    <div class="container" id="slider-home">
-        <div class="row d-none d-lg-block">
-            <?php 
-                $slider = get_field('slider');
-                echo do_shortcode($slider); 
-            ?>
-        </div>
+    <div class="container-fluid px-0 vh-100" id="slider-home">
+         <!--Carousel Wrapper-->
+        <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails h-100" data-ride="carousel" data-interval="false">
+            <!--Slides-->
+            <div class="carousel-inner h-100" role="listbox">
+                <div class="carousel-item active h-100">
+                <img class="d-block w-100 h-100 img-fluid" src="https://mdbootstrap.com/img/Photos/Slides/img%20(88).jpg" alt="First slide">
+                </div>
+                <div class="carousel-item h-100">
+                <img class="d-block w-100 h-100 img-fluid" src="https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item h-100">
+                <img class="d-block w-100 h-100 img-fluid" src="https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg" alt="Third slide">
+                </div>
+            </div>
+            <!--/.Slides-->
 
-        <div class="row d-block d-lg-none">
-            <?php 
-                echo do_shortcode('[smartslider3 slider=31]'); 
-            ?>
+            <!--/.Controls-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-thumb" data-slide-to="0" class="active"> <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(88).jpg"
+                    class="img-fluid"></li>
+                <li data-target="#carousel-thumb" data-slide-to="1"><img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(121).jpg"
+                    class="img-fluid"></li>
+                <li data-target="#carousel-thumb" data-slide-to="2"><img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(31).jpg"
+                    class="img-fluid"></li>
+            </ol>
         </div>
+        <!--/.Carousel Wrapper-->
     </div>
 	<div class="<?php echo esc_attr( $container ); ?>-fluid px-0" id="content">
 		<div class="col-md-12 content-area" id="primary">
