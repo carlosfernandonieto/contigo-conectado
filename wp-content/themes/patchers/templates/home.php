@@ -14,45 +14,56 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php if ( is_front_page() ) : ?>
-  <?php get_template_part( 'global-templates/hero' ); ?>
-<?php endif; ?>
-<style>
-#n2-ss-31 > div > div > div > div.n2-ss-slide.n2-ss-canvas.n2-ow.n2-ss-slide-34.n2-ss-slide-active > div > div{
-    width:100%!important;
-    left:0!important;
-}
-</style>
-
 <div class="wrapper py-0" id="full-width-page-wrapper">
     <div class="container-fluid px-0 vh-100" id="slider-home">
-         <!--Carousel Wrapper-->
-        <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails h-100" data-ride="carousel" data-interval="false">
-            <!--Slides-->
-            <div class="carousel-inner h-100" role="listbox">
-                <div class="carousel-item active h-100">
-                <img class="d-block w-100 h-100 img-fluid" src="https://mdbootstrap.com/img/Photos/Slides/img%20(88).jpg" alt="First slide">
-                </div>
-                <div class="carousel-item h-100">
-                <img class="d-block w-100 h-100 img-fluid" src="https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item h-100">
-                <img class="d-block w-100 h-100 img-fluid" src="https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg" alt="Third slide">
-                </div>
-            </div>
-            <!--/.Slides-->
+        <?php if( have_rows('videos', 2535) ): ?>
+            <div class="carousel_bg h-100">
+                    <div id="carousel-example-generic" class="carousel slide carousel-fade carousel-thumbnails h-100 pointer-event" data-ride="carousel" data-interval="false">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner h-100" role="listbox">
+                            <div class="cont-preview">
+                            <?php
+                            $active = 'active';
+                            while ( have_rows('videos', 2535) ) : the_row();
 
-            <!--/.Controls-->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-thumb" data-slide-to="0" class="active"> <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(88).jpg"
-                    class="img-fluid"></li>
-                <li data-target="#carousel-thumb" data-slide-to="1"><img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(121).jpg"
-                    class="img-fluid"></li>
-                <li data-target="#carousel-thumb" data-slide-to="2"><img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(31).jpg"
-                    class="img-fluid"></li>
-            </ol>
-        </div>
-        <!--/.Carousel Wrapper-->
+                                $image = get_sub_field('poster_home');
+                                $video = get_sub_field('enlace_del_video');
+                                ?>
+                                
+                                <div class="carousel-item h-100 <?php echo $active ?>">
+                                    <div class="cont-preview position-absolute">
+                                        <img class="d-block vw-100 vh-100 img-fluid" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>">
+                                        <div class="position-absolute bg-primary btn-video"><a class="btn bg-primary align-self-center d-flex" href="#">Ver video <i class="material-icons">play_circle_filled_white</i></a></div>
+                                    </div>
+                                    <div class="cont-video position-absolute w-100 h-100">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" src="<?php echo $video; ?>&autoplay=0"  allowscriptaccess="always" allow="autoplay"></iframe>
+                                        </div>
+                                    </div>
+                                </div><!-- /item -->
+                                <?php $active = '';
+                            endwhile;
+                            ?>
+                            </div>
+                        </div>
+                        <!--/.carousel-inner-->
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <?php
+                            $active = 'active';
+                            $num = 0;
+                            while ( have_rows('videos', 2535) ) : the_row();
+                            $image = get_sub_field('poster');
+                                ?>
+                                <li data-target="#carousel-example-generic" data-slide-to="<?php echo $num ?>" class="<?php echo $active ?>"><img class="d-block w-100 h-100 img-fluid" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>"></li>
+                                <?php
+                                $active = '';
+                                $num += 1;
+                            endwhile; ?>
+                        </ol>
+                    </div>
+            </div><!-- /row -->
+        <?php endif; ?>
     </div>
 	<div class="<?php echo esc_attr( $container ); ?>-fluid px-0" id="content">
 		<div class="col-md-12 content-area" id="primary">

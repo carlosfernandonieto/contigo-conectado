@@ -125,9 +125,21 @@ h1{
 
 
 #slider-home{
-    .n2-ss-control-bullet{
-        transform: rotate(90deg);
-        bottom: 10%!important;
+    .cont-preview{
+        z-index: 2;
+    }
+    .cont-video {
+        top: 0;
+        z-index: 1;
+    }
+
+    .btn-video{
+        top: calc(50% - 100px);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
     }
 }
 .home{
