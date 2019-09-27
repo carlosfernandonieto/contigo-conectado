@@ -125,14 +125,19 @@ h1{
 
 
 #slider-home{
+    height: 100vh;
+    margin-top: 60px;
     .cont-preview{
         z-index: 2;
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
     }
     .cont-video {
         top: 0;
         z-index: 1;
     }
-
     .btn-video{
         top: calc(50% - 100px);
         left: 0;
@@ -140,6 +145,40 @@ h1{
         margin: 0 auto;
         width: 200px;
         height: 200px;
+        img{
+            @include media-breakpoint-down(md){
+                margin: 0 auto;
+                height: auto;
+            }
+        }
+        @include media-breakpoint-down(md){
+            width: 93px;
+            height: 93px;
+            top: calc(50% - 46px);
+        }
+    }
+    .carousel-indicators li{
+        width: 200px;
+        height: auto;
+    }
+
+    .c-btn-volver{
+        top: 100px;
+        color: #fff;
+        z-index: 1;
+        left: 50px;
+        font-size: 30px;
+        i{
+            cursor: pointer;
+        }
+        @include media-breakpoint-down(md){
+            top: 0;
+            left: 20px;
+            font-size: 20px;
+        }
+    }
+    @include media-breakpoint-down(md){
+        height: 50vh;
     }
 }
 .home{

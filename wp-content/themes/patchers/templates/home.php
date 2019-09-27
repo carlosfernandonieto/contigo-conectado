@@ -15,29 +15,35 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <div class="wrapper py-0" id="full-width-page-wrapper">
-    <div class="container-fluid px-0 vh-100" id="slider-home">
+    <div class="container-fluid px-0" id="slider-home">
         <?php if( have_rows('videos', 2535) ): ?>
             <div class="carousel_bg h-100">
                     <div id="carousel-example-generic" class="carousel slide carousel-fade carousel-thumbnails h-100 pointer-event" data-ride="carousel" data-interval="false">
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner h-100" role="listbox">
-                            <div class="cont-preview">
+                            <div class="h-100">
                             <?php
                             $active = 'active';
                             while ( have_rows('videos', 2535) ) : the_row();
 
                                 $image = get_sub_field('poster_home');
+                                $image_mobile = get_sub_field('poster_home_mobile');
                                 $video = get_sub_field('enlace_del_video');
                                 ?>
                                 
                                 <div class="carousel-item h-100 <?php echo $active ?>">
-                                    <div class="cont-preview position-absolute">
-                                        <img class="d-block vw-100 vh-100 img-fluid" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>">
-                                        <div class="position-absolute bg-primary btn-video"><a class="btn bg-primary align-self-center d-flex" href="#">Ver video <i class="material-icons">play_circle_filled_white</i></a></div>
+                                    <div class="cont-preview position-absolute h-100">
+                                        <img class="vw-100 img-fluid d-none d-lg-block" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>">
+                                        <img class="vw-100 img-fluid d-block d-lg-none" src="<?php echo $image_mobile['url'];?>" alt="<?php echo $image_mobile['alt'];?>">
+                                        <div class="position-absolute btn-video"><a class="btn align-self-center d-flex" href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Play-200x200.png" alt="Play"></a></div>
                                     </div>
                                     <div class="cont-video position-absolute w-100 h-100">
+                                        <div class="c-btn-volver position-absolute">
+                                            <i class="fa fa-arrow-left"></i>
+                                            <i>Volver</i>
+                                        </div>
                                         <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="<?php echo $video; ?>&autoplay=0"  allowscriptaccess="always" allow="autoplay"></iframe>
+                                            <iframe class="embed-responsive-item" src="<?php echo $video; ?>?enablejsapi=1&version=3&playerapiid=ytplayer"  allowscriptaccess="always" allow="autoplay"></iframe>
                                         </div>
                                     </div>
                                 </div><!-- /item -->

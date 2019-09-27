@@ -141,17 +141,27 @@ jQuery(document).ready(function($) {
     // Video Home
 
     var $carousel = $('#carousel-example-generic');
-    var $iframe = $('.cont-video iframe');
-    var src = $('.active .cont-video iframe').attr('src');
-    
-    $(".carousel-s a").on('click touchstart',function() {
-      currentIndex = $('div.active').index();
-      var ActiveElement = $carousel.find('.active');
-      var Activeiframe = $iframe.find('.active iframe');
-      ActiveElement.css('z-index','1000');
-      var iframeSrc = $(Activeiframe).attr('src');
-      console.log(iframeSrc);
+  
+  $(".btn-video a").on('click touchstart',function() {
+    currentIndex = $('div.active').index();
+    var ActiveElement = $carousel.find('.active .cont-preview');
+    var Activeiframe = $carousel.find('.active .cont-video iframe');
+    ActiveElement.fadeOut();
+    $(Activeiframe)[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
   });
+  
+  $($carousel).on('slide.bs.carousel', function () {
+    var Activeiframe = $carousel.find('.active .cont-video iframe');
+    $(Activeiframe)[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+  });
+
+  $(".c-btn-volver i").on('click touchstart',function() {
+    currentIndex = $('div.active').index();
+    var ActiveElement = $carousel.find('.active .cont-preview');
+    var Activeiframe = $carousel.find('.active .cont-video iframe');
+    ActiveElement.fadeIn();
+    $(Activeiframe)[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
+});
 
 });
 
