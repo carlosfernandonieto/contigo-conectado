@@ -140,27 +140,34 @@ jQuery(document).ready(function($) {
 
     // Video Home
 
-    var $carousel = $('#carousel-example-generic');
+  var carousel = $('#carousel-example-generic');
+  var olNav = carousel.find('.carousel-indicators');
+  var contVideo = carousel.find('.cont-video');
+  contVideo.hide();
   
   $(".btn-video a").on('click touchstart',function() {
     currentIndex = $('div.active').index();
-    var ActiveElement = $carousel.find('.active .cont-preview');
-    var Activeiframe = $carousel.find('.active .cont-video iframe');
-    ActiveElement.fadeOut();
+    var ActiveElement = carousel.find('.active .cont-preview');
+    var Activeiframe = carousel.find('.active .cont-video iframe');
     $(Activeiframe)[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
+    ActiveElement.fadeOut();
+    olNav.fadeOut();
+    contVideo.show();
   });
   
-  $($carousel).on('slide.bs.carousel', function () {
-    var Activeiframe = $carousel.find('.active .cont-video iframe');
+  $(carousel).on('slide.bs.carousel', function () {
+    var Activeiframe = carousel.find('.active .cont-video iframe');
     $(Activeiframe)[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
   });
 
   $(".c-btn-volver i").on('click touchstart',function() {
     currentIndex = $('div.active').index();
-    var ActiveElement = $carousel.find('.active .cont-preview');
-    var Activeiframe = $carousel.find('.active .cont-video iframe');
+    var ActiveElement = carousel.find('.active .cont-preview');
+    var Activeiframe = carousel.find('.active .cont-video iframe');
+    $(Activeiframe)[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
     ActiveElement.fadeIn();
-    $(Activeiframe)[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
+    olNav.fadeIn();
+    contVideo.show();
 });
 
 });

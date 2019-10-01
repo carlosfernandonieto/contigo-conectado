@@ -42,7 +42,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                             <i class="fa fa-arrow-left"></i>
                                             <i>Volver</i>
                                         </div>
-                                        <div class="embed-responsive embed-responsive-16by9">
+                                        <div class="embed-responsive embed-responsive-16by9 h-100">
                                             <iframe class="embed-responsive-item" src="<?php echo $video; ?>?enablejsapi=1&version=3&playerapiid=ytplayer"  allowscriptaccess="always" allow="autoplay"></iframe>
                                         </div>
                                     </div>

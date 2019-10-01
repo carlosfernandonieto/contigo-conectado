@@ -160,10 +160,16 @@ h1{
     .carousel-indicators li{
         width: 200px;
         height: auto;
+        opacity: 1;
+        border: 3px solid transparent;
+
+        &.active{
+            border: 3px solid $azul_claro;
+        }
     }
 
     .c-btn-volver{
-        top: 100px;
+        top: 40px;
         color: #fff;
         z-index: 1;
         left: 50px;
@@ -261,33 +267,42 @@ h1{
 }
 
 // Filtros
-.dropdown{
-    .filter{
-        border:1px solid $azul_claro;
-        font-size: 20px;
-        text-transform: uppercase;
-        font-family: $cronos_pro;
-        color: $azul_quemado;
-        border-radius: 0;
-        &:focus{
-            box-shadow: none;
-        }
-    }
-    .dropdown-toggle{
-        background: $azul_claro;
-        border-radius: 0;
-        font-size: 20px;
-        color: $blanco;
-        &:focus{
-            box-shadow: none;
-        }
-    }
-    .dropdown-menu.show {
-        display: block;
-        left: -112px!important;
-    }
+.sticky-top{
+    top:68px;
+    padding: 20px 0;
 }
-
+#c-filtros{
+    p{
+        font-family: $cronos_pro;
+    }
+    .dropdown{
+        .filter{
+            border:1px solid $azul_claro;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-family: $cronos_pro;
+            color: $azul_quemado;
+            border-radius: 0;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        .dropdown-toggle{
+            background: $azul_claro;
+            border-radius: 0;
+            font-size: 20px;
+            color: $blanco;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        .dropdown-menu.show {
+            display: block;
+            left: -112px!important;
+        }
+    }
+    
+}
 // Popup Form
 
 /* Button used to open the contact form - fixed at the bottom of the page */
