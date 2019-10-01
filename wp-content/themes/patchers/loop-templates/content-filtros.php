@@ -9,7 +9,7 @@
 defined( 'ABSPATH' ) || exit;
 
 ?>
-<div class="container text-center">
+<div class="container text-center bg-blanco sticky-top" id="c-filtros">
     <p>Filtrar por:</p>
     <div class="dropdown d-inline-block">
             <div class="btn-group">
