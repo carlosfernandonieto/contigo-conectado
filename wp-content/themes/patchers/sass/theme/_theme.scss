@@ -125,7 +125,7 @@ h1{
 
 
 #slider-home{
-    height: 100vh;
+    height: calc(100vh - 60px);
     margin-top: 60px;
     .cont-preview{
         z-index: 2;

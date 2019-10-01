@@ -35,7 +35,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     <div class="cont-preview position-absolute h-100">
                                         <img class="vw-100 img-fluid d-none d-lg-block" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>">
                                         <img class="vw-100 img-fluid d-block d-lg-none" src="<?php echo $image_mobile['url'];?>" alt="<?php echo $image_mobile['alt'];?>">
-                                        <div class="position-absolute btn-video"><a class="btn align-self-center d-flex" href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Play-200x200.png" alt="Play"></a></div>
+                                        <div class="position-absolute btn-video"><a class="btn align-self-center d-flex p-0" href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Play-200x200.png" alt="Play"></a></div>
                                     </div>
                                     <div class="cont-video position-absolute w-100 h-100">
                                         <div class="c-btn-volver position-absolute">
