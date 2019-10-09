@@ -60,8 +60,16 @@ $container = get_theme_mod( 'understrap_container_type' );
                             $num = 0;
                             while ( have_rows('videos', 2535) ) : the_row();
                             $image = get_sub_field('poster');
+                            $tituloPreview = explode(':', get_sub_field('titulo'));
+                            //print_r($tituloPreview);
+
                                 ?>
-                                <li data-target="#carousel-example-generic" data-slide-to="<?php echo $num ?>" class="<?php echo $active ?>"><img class="d-block w-100 h-100 img-fluid" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="<?php echo $num ?>" class="<?php echo $active ?>">
+                                    <div class="c-titulo-preview position-absolute">
+                                        <span><?php echo $tituloPreview[0]; ?></span>
+                                    </div>
+                                    <img class="d-block w-100 h-100 img-fluid" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>">
+                                </li>
                                 <?php
                                 $active = '';
                                 $num += 1;

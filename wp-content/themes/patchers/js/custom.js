@@ -156,8 +156,16 @@ jQuery(document).ready(function($) {
   });
   
   $(carousel).on('slide.bs.carousel', function () {
-    var Activeiframe = carousel.find('.active .cont-video iframe');
-    $(Activeiframe)[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+    //var Activeiframe = carousel.find('.active .cont-video iframe');
+    var ActiveElement = carousel.find('.active .cont-preview');
+    //$(Activeiframe)[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+    //var Activeiframe = carousel.find('.active .cont-video iframe');
+    ActiveElement.fadeOut(2000);
+    setTimeout( function(){ 
+      var btnPlay = ActiveElement.find('.btn-video a');
+      //console.log(btnPlay);
+      btnPlay.trigger('click');
+    },1000);
   });
 
   $(".c-btn-volver i").on('click touchstart',function() {

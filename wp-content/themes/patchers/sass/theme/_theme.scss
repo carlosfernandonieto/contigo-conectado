@@ -125,6 +125,7 @@ h1{
 
 
 #slider-home{
+    
     height: calc(100vh - 60px);
     margin-top: 60px;
     .cont-preview{
@@ -162,25 +163,36 @@ h1{
         height: auto;
         opacity: 1;
         border: 3px solid transparent;
-
+        position: relative;
+        text-indent: initial;
         &.active{
             border: 3px solid $azul_claro;
         }
     }
 
+    .c-titulo-preview {
+        bottom: 0;
+        color: #fff;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+        font-family: $cronos_pro;
+    }
+
     .c-btn-volver{
-        top: 40px;
+        top: 45px;
         color: #fff;
         z-index: 1;
         left: 50px;
-        font-size: 30px;
+        font-size: 25px;
         i{
             cursor: pointer;
         }
         @include media-breakpoint-down(md){
-            top: 0;
+            top: 55px;
             left: 20px;
-            font-size: 20px;
+            font-size: 18px;
         }
     }
     @include media-breakpoint-down(md){
@@ -270,6 +282,7 @@ h1{
 .sticky-top{
     top:68px;
     padding: 20px 0;
+    z-index: 20;
 }
 #c-filtros{
     p{
