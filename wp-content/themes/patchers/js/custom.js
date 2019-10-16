@@ -145,7 +145,7 @@ jQuery(document).ready(function($) {
   var contVideo = carousel.find('.cont-video');
   contVideo.hide();
   
-  $(".btn-video a").on('click touchstart',function() {
+  $(".btn-video a").on('click',function() {
     currentIndex = $('div.active').index();
     var ActiveElement = carousel.find('.active .cont-preview');
     var Activeiframe = carousel.find('.active .cont-video iframe');
@@ -168,7 +168,7 @@ jQuery(document).ready(function($) {
     },1000);
   });
 
-  $(".c-btn-volver i").on('click touchstart',function() {
+  $(".c-btn-volver i").on('click',function() {
     currentIndex = $('div.active').index();
     var ActiveElement = carousel.find('.active .cont-preview');
     var Activeiframe = carousel.find('.active .cont-video iframe');
