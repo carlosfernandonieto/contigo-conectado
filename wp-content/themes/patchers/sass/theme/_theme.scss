@@ -287,6 +287,65 @@ h1{
     
 }
 
+// Banner Acuerdo
+#banner-acuerdo{
+    .row{
+        padding: 40px 0;
+        @include media-breakpoint-down(lg){
+            padding: 20px 0;
+        }
+    }
+    background: url('../images/BannerAcuerdo.jpg') no-repeat;
+    
+    background-size: cover;
+    background-position: center bottom;
+    #msjAcuerdo{
+        background: url('../images/bg_msjAcuerdo.png') no-repeat; 
+        padding: 50px;
+        background-position: center;
+        h3{
+            font-family: $cronos_pro;
+            color: $primary;
+            font-size: 50px;
+            line-height: 43px;
+            @include media-breakpoint-down(lg){
+                font-size: 30px;
+                line-height: 23px;
+            }
+        }
+        @include media-breakpoint-down(lg){
+            background-size: cover;
+            border-radius: 70px;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        
+    }
+    #btnMsj{
+        .btn{
+            font-family: $cronos_pro;
+            background: $azul_claro;
+            color: $blanco;
+            font-size: 34px;
+            letter-spacing: 2px;
+            border-radius: 10px;
+            margin-bottom: 80px;
+            @include media-breakpoint-down(lg){
+                margin-bottom: 60px;
+                font-size: 25px;
+            }
+        }
+    }
+    @media (min-width:1280px) and (max-width:1600px){
+        background-position-x: -110px;
+    }
+
+    @include media-breakpoint-down(lg){
+        background-position-x: -10px;
+    }
+    
+}
+
 // Filtros
 .sticky-top{
     top:68px;
